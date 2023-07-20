@@ -1,0 +1,157 @@
+#hot-offers {
+	padding-top: 100px;
+}
+
+.hot-offer-heading {
+	margin-bottom: 60px;
+
+}
+
+.hot-offer-heading h3 {
+	font-size: 42px;
+	line-height: 45px;
+	font-weight: 700;
+}
+
+.hot-offer-col-wrapper {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.VR-img {
+	width: 100%;
+}
+
+.VR-img img {
+	width: 100%;
+}
+
+.VR-content {
+	position: absolute;
+	top: 60px;
+	left: 40px;
+
+}
+
+.VR-content span {
+	font-size: 24px;
+	line-height: 27px;
+	font-weight: 600;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	text-align: center;
+	display: block;
+}
+
+.VR-content h3 {
+	font-size: 42px;
+	line-height: 45px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	color: #FFFFFF;
+}
+
+.VR-link-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.VR-link {
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 600;
+	padding: 19px 46px;
+	background-color: #F3283D;
+	border-radius: 16px;
+	color: #FFFFFF;
+	display: inline-block;
+}
+
+.googleMini-content {
+	position: absolute;
+	bottom: 40px;
+	left: 80px;
+}
+
+.googleMini-content h3 {
+	font-size: 42px;
+	line-height: 45px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: #0B0C14;
+	text-align: center;
+}
+
+.googleMini-content span {
+	font-size: 24px;
+	line-height: 27px;
+	font-weight: 600;
+	color: #87939E;
+	text-align: center;
+	display: block;
+}
+
+.homeTheater-content {
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+
+.homeTheater-content h3 {
+	font-size: 42px;
+	line-height: 45px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.homeTheater-content span {
+	font-size: 24px;
+	line-height: 27px;
+	font-weight: 600;
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+	margin-bottom: 40px;
+
+}
+
+.homeTheater-link-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.homeTheater-link {
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 600;
+	padding: 19px 46px;
+	background-color: #FFFFFF;
+	border-radius: 16px;
+	color: #0B0C14;
+	display: inline-block;
+}
+.miStores-content {
+	position: absolute;
+	bottom: 40px;
+	left: 80px;
+}
+.miStores-content h3{
+	font-size: 42px;
+	line-height: 45px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #F3283D;
+}
+.miStores-content span{
+	font-size: 24px;
+	line-height: 27px;
+	font-weight: 600;
+	color: #87939E;
+	text-align: center;
+	display: block;
+}

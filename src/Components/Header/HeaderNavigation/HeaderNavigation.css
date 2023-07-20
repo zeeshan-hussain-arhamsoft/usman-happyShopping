@@ -1,0 +1,43 @@
+#nav-bar{
+	background-color: #1239A5 ;
+	padding: 31px 0	;
+}
+.grid-icon{	
+	width: 24px;
+	height: 24px;
+	margin-right: 12px;
+}
+.grid-icon img{
+	width: 100%;
+}
+.categories-btn{
+	font-family:'Poppins', sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+.nav-link{
+	font-family:'Poppins', sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 500;
+	color: #FFFFFF	;
+}
+.nav-item{
+    margin-left: 100px;
+}
+.categories .btn-success{
+    background-color: transparent;
+    border: none;
+}
+.categories .btn-success:hover{
+    background-color: transparent;
+    border: none;
+}
+.categories .dropdown-toggle::after{
+    display: none;
+}
+.drop-down-icon{
+    margin-left: 60px;
+}

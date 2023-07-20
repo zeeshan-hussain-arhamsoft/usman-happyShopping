@@ -1,0 +1,143 @@
+.grid-dropdown {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.grid-list-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.grid-view {
+    margin-right: 30px;
+}
+
+.grid-dropdown .btn-success {
+    background-color: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    color: #87939E;
+}
+
+.grid-dropdown .btn-success:active {
+    background-color: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    color: #87939E;
+}
+
+.accessories-card-col {
+    border: 1px solid #0B0C1433;
+    border-radius: 20px;
+    padding: 39px 40px 43px 40px;
+    height: 100%;
+}
+
+.accessories-card-img {
+    width: 250px;
+
+}
+
+.accessories-card-img img {
+    width: 100%;
+}
+
+.card-wrapper {
+    margin-bottom: 45px;
+}
+
+.card-wrapper span {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #87939E;
+}
+
+.card-wrapper h3 {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #3D5A6B;
+    margin-bottom: 22px;
+}
+
+.accessories-price strong {
+    font-size: 28px;
+    line-height: 31px;
+    font-weight: 700;
+    color: #1239A5;
+    margin-right: 20px;
+}
+
+.accessories-price span {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #87939E;
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.accessories-card-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.accessories-img1 {
+    width: 218px;
+    margin-bottom: 21px;
+}
+
+.accessories-img1 img {
+    width: 100%;
+}
+
+.accessories-img2 {
+    width: 296px;
+}
+
+.accessories-img2 img {
+    width: 100%;
+}
+
+.accessories-img3 {
+    width: 344px;
+    margin-bottom: 64px;
+}
+
+.accessories-img3 img {
+    width: 100%;
+}
+
+.accessories-img4 {
+    width: 296px;
+}
+
+.accessories-img4 img {
+    width: 100%;
+}
+
+.heart-img {
+    display: flex;
+    justify-content: end;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.pagination-ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.pagination-li {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #87939E;
+    margin: 0 8px;
+}

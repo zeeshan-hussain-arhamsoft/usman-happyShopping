@@ -1,0 +1,108 @@
+#track-order-cashback{
+	background-color: #F9F9F9;
+	
+}
+.cashback-row-wrapper{
+	padding: 19px 0;
+}
+.cashback{
+	display: flex;
+	align-items: center;
+}
+.tag-icon{
+	margin-right: 10px;
+}
+
+.cashback p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 500;
+	color: #3F5B6C;
+	opacity: 0.9;
+	margin: 0;
+}
+.cashback-email-ul{
+	list-style: none;
+	display: flex;
+	padding: 0;
+    justify-content: end;
+	align-items: center;
+	margin: 0;
+}
+.cashback-email-ul li{
+	margin-right: 50px;
+}
+.track-order{
+	display: flex;
+	align-items: center;
+}
+.truck-icon{
+	margin-right: 10px;
+}
+.track-order-anchor{
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 500;
+	color: #3F5B6C;
+	opacity: 0.9;
+}
+.track-order-anchor:hover{
+	border-bottom: 1px solid #49B7D1;
+}
+.email i{
+	font-size: 22px;
+	color: #49B7D1	;
+	margin-right: 10px;
+}
+.company-email-address{
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 500;
+	color: #3F5B6C;
+	opacity: 0.9;
+}
+.region-li .btn-success{
+    background-color: transparent;
+    color: #3F5B6C;
+    border: none;
+}
+.usd-btn{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 500;
+	color: #3F5B6C	;
+}
+.flag-img{
+	width: 22px;
+	height: auto;
+	margin-right: 10px;
+}
+.flag-img img{
+	width: 100%;
+}
+.language-li .btn-success{
+    background-color: transparent;
+    color: #3F5B6C;
+    border: none;
+}
+.language-li .btn:hover{
+    background-color: transparent;
+    color: #3F5B6C;
+    border: none;
+}
+.language-li .btn:active{
+    color: #3F5B6C;
+}
+.language-btn{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 500;
+	color: #3F5B6C	;
+}

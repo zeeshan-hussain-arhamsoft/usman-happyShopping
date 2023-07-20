@@ -1,0 +1,50 @@
+#keep-in-touch{
+    background-color: #1239A5;
+    padding: 110px 0 110px 100px;
+}
+.keep-in-touch-content-col h3{
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.keep-in-touch-content-col span{
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.keep-in-touch-bar-form{
+    position: relative;
+}
+.keep-in-touch-subscribe-bar .keep-in-touch-search-bar{
+    padding: 23px 30px;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0, 0.2);
+    border: 1px solid transparent;
+}
+.keep-in-touch-subscribe-bar .keep-in-touch-search-bar::placeholder{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.keep-in-touch-search-btn{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #000000;
+    padding: 21px 43px;
+    background-color: #FEBE37;
+    border-radius: 12px;
+    display: block;
+}
+.keep-in-touch-search-button{
+    position: absolute;
+    top: 3px;
+    right: 130px;
+}
+#top-products{
+    padding-bottom: 100px;
+}

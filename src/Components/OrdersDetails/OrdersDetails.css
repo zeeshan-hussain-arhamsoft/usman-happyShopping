@@ -1,0 +1,97 @@
+.order-details-heading{
+    background-color: #F2F3F6;
+    padding: 46px 0;
+    margin-bottom: 60px;
+}
+.order-details-heading-content{
+    display: flex;
+    justify-content: space-between;
+}
+.order-details-heading-content h5{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #0B0C14;
+}
+.order-details-table{
+    margin-bottom: 80px;
+}
+.order-details-table .table-row{
+    border: 1px solid #CECED0;
+    border-radius: 10px;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>*{
+    --bs-table-bg-type: transparent;
+    padding: 20px 0;
+} 
+.order-details-table .order-num{
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    vertical-align: middle;
+}
+.order-num-anc{
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #49B7D1;
+}
+.table-mac{
+    width: 80px;
+    height: 80px;
+}
+.table-mac img{
+    width: 100%;
+}
+.order-details-table .orders-table-date{
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #87939E;
+    /* text-align: center; */
+    vertical-align: middle;
+}
+.order-details-table .orders-table-content{
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #0B0C14;
+    /* text-align: center; */
+    vertical-align: middle;
+}
+.order-details-table .orders-table-status{
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #1AAA5D;
+    text-align: center;
+    vertical-align: middle;
+}
+.order-details-table .orders-table-status-cancel{
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #F3283D;
+    text-align: center;
+    vertical-align: middle;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.pagination-ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex; 
+}
+.pagination-li{
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #87939E;
+    margin: 0 8px;
+}

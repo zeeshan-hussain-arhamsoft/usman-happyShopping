@@ -1,0 +1,236 @@
+#hottest-categories {
+    padding-top: 100px;
+}
+
+.hottest-categories-heading {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hottest-categories-heading h2 {
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+.hottest-categories-link {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 600;
+    color: #FEBE37;
+}
+
+.HottestCategories-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 0;
+    border: 1px solid #0B0C1433;
+    border-radius: 20px;
+}
+
+.categoreis-ist-card {
+    background-color: #49B7D1;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.categoreis-ist-card h5 {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.hottestcategories-card-img {
+    margin-bottom: 26px;
+}
+
+.HottestCategories-col h5 {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #0B0C14;
+}
+
+.HottestCategories-col span {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #87939E;
+}
+
+.slider-wrapper {
+    padding-top: 30px;
+}
+
+.categories-slier-items {
+    width: 400px;
+    border: 1px solid #0B0C1433;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.itmes-cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount {
+    background-color: #F3283D;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.discount span {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 0 17px;
+    display: block;
+}
+
+.red-heart {
+    display: flex;
+    justify-content: end;
+}
+
+.categories-items1 {
+    width: 215px;
+    margin: 0 auto;
+    height: 260px;
+}
+
+.categories-items1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.categories-items-wrapper span {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #87939E;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.categories-items-wrapper h6 {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #3D5A6B;
+    margin-bottom: 22px;
+}
+
+.categories-items-wrapper strong {
+    font-size: 28px;
+    line-height: 31px;
+    font-weight: 700;
+    color: #1239A5;
+    margin-right: 20px;
+    margin-bottom: 44px;
+    display: inline-block;
+}
+
+.old-price {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #87939E;
+    text-decoration: line-through;
+}
+
+.hp-card {
+    background-color: #49B7D1;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.hp-card span {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 0 17px;
+    display: block;
+}
+
+.slider-wrapper .slick-prev {
+    left: 46%;
+    top: 107%;
+    width: 25px;
+    height: 25px;   
+    box-shadow: -2px 2px 0 #0b0c14;
+    transform: rotate(45deg);
+}
+
+.slider-wrapper .slick-next {
+    right: 48%;
+    top: 107%;
+    width: 25px;
+    height: 25px;   
+    box-shadow: -2px 2px 0 #0b0c14;
+    transform: rotate(-135deg);
+}
+
+/* .slider-wrapper .slick-prev:before {
+
+}
+
+.slider-wrapper .slick-next:before {
+    
+} */
+.countercart{
+    display: flex;
+    justify-content: space-between;
+}
+.counter{
+    display: flex;
+    border: 1px solid #D5D5D5;
+    align-items: center;
+}
+.counter-reduce{
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #0B0C14;
+    padding: 0 22px;
+}
+.counter-num{
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+    background-color: #F2F2F2;
+    padding: 20px 30px;
+    display: block;
+
+}
+.counter-num span{
+    display: block;
+}
+.counter-increase{
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #0B0C14;
+    padding: 0 22px;
+}
+.carticon{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #FEBE37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

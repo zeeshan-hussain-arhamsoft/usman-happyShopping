@@ -1,0 +1,127 @@
+#logo-search{
+	padding-bottom: 43px;
+	padding-top: 43px;
+}
+.company-logo img{
+	width: 100% 	;
+}
+.search-bar-wrapper{
+	margin-left: 50px;
+}
+.search-bar-form{
+	display: flex;
+	justify-content: end;
+}
+.input-group{
+	width: 72%;
+}
+.search-bar{
+	padding: 19px 30px;
+	border-radius: 12px;
+	background-color: #F4F4F4 	;
+}
+.search-button{
+	position: relative;
+	right: 10px;
+    z-index: 1;
+    overflow: hidden;
+}
+.search-btn{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 500;
+	padding: 19px 48px;
+	background-color: #49B7D1;
+	color: #FFFFFF;
+	border-radius: 12px;
+    overflow: hidden;
+
+}
+.search-btn i{
+	font-size: 27px;
+}
+.mycart{
+	display: flex;
+	align-items: center;
+
+}
+.heart{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.cart-wrapper{
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+}
+.shopping-cart{
+	position: relative;
+	margin-right: 24px;
+}
+.shopping-cart::before{
+	content: "";
+	width: 22px;
+	height: 22px;
+	background-color: #49B7D1;
+	border-radius: 50%;
+	position: absolute;
+	top: -7px;
+    right: -13px;
+    z-index: 0;
+}
+.cart-count{
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	position: absolute;
+	top: 5px;
+    right: 90px;
+}
+.my-cart{
+	font-family:'Poppins', sans-serif;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 600;
+	color: #3F5B6C;
+	display: block;
+
+}
+.cart-items-price{
+	font-family:'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 600;
+	color: #49B7D1;
+	display: block;
+}
+.Customer-dropdown .btn-success{
+    background-color: transparent;
+    border: none;
+}
+.Customer-dropdown .btn-success:hover{
+    background-color: transparent;
+    color: #3F5B6C;
+    
+}
+.client-dropdown{
+	margin-left: 40px;
+}
+.girl-img{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+.girl-img img{
+	width: 100%;
+}
+.client-btn{
+	font-family:'Poppins', sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 600;
+	color: #3F5B6C;
+}
