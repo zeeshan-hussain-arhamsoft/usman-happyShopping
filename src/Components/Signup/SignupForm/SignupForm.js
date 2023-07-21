@@ -18,7 +18,7 @@ function SignupForm() {
 				<div className='signup-wrapper'>
 					<div className='signup-heading-wrapper'>
 						<h5>Create Your Account</h5>
-						<span>Already have an account?<Link to='/' className='return-login'> Log In</Link></span>
+						<span>Already have an account?<Link to='/Login' className='return-login'> Log In</Link></span>
 					</div>
 					<Form action="/" className="signup-bar-form">
 						<div className='signup-name-wrapper'>

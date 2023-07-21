@@ -27,7 +27,7 @@ function LoginForm() {
 						</div>
 						<div className='forget-password-link-wrapper'>
 							<Link to='/' className='login-link'>Forgot Password?</Link>
-							<Link to='/' className='login-link'>Create Account	</Link>
+							<Link to='/Signup' className='login-link'>Create Account	</Link>
 						</div>
 						<div className="input-group-append login-button">
 							<button className="hvr-bounce-to-right btn login-btn" type="submit">Log In</button>
