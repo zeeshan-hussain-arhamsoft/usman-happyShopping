@@ -8,6 +8,7 @@ import heartIcon from "./Images/heart.svg";
 import shoppingCart from "./Images/shopping-cart.svg";
 import Customer from "./Images/girl.png";
 import grid from "./Images/grid.svg";
+import Search from "./Images/search.svg";
 // Banner
 import homeBanner from "./Images/banner.png";
 import computerProduct from "./Images/computers.png";
@@ -69,6 +70,7 @@ export const Images = {
     shoppingCart,
     Customer,
     grid,
+    Search,
     Mac,
     homeBanner,
     computerProduct,

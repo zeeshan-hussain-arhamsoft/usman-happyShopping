@@ -1,0 +1,78 @@
+.shipping-content-wrapper {
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.shipping-method-heading {
+    margin-bottom: 30px;
+}
+
+.shipping-method-heading h5 {
+    font-size: 28px;
+    line-height: 31px;
+    font-weight: 500;
+    color: #0B0C14;
+}
+
+.shipping-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 30px;
+    border: 1px solid #CECED0;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.shipping-price span {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #0B0C14;
+}
+
+.shipping-price .form-check-input {
+    width: 28px;
+    height: 28px;
+    border: 2px solid #87939E;
+    margin-right: 18px;
+}
+
+.shipping-price .form-check-input:checked {
+    background-color: #F3283D;
+    border: none;
+}
+
+.shipping-price .form-check-label {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #87939E;
+}
+
+.shipping-price .form-check-inline {
+    display: flex;
+    align-items: end;
+}
+
+.continue-payment-btn {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    padding: 21px 40px;
+    background-color: #49B7D1;
+    border-radius: 12px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.return-to-information-btn {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #0B0C14;
+    margin-left: 40px;
+}

@@ -1,0 +1,123 @@
+.contact-details-form-wrapper{
+    padding-top: 100px;
+}
+.contact-information{
+    margin-bottom: 51px;
+}
+.contact-information strong {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+}
+.strong2{
+    color: #87939E;
+}
+.contact-details-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.contact-details-heading h3{
+    font-size: 28px;
+    line-height: 31px;
+    font-weight: 500;
+    color: #1239A5;
+}
+.contact-details-heading span{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #87939E;
+}
+.contact-details-login-link{
+    text-decoration: none;
+    color: #0B0C14;
+
+}
+.contact-information-bar-wrapper{
+    margin-bottom: 60px;
+}
+.contact-information-bar-wrapper .input-group{
+    width: 100%;
+}
+
+.contact-information-bar{
+    padding: 21px 30px;
+    border: 1px solid #CECED0;
+    border-radius: 10px;
+}
+.contact-info{
+    margin-bottom: 20px;
+}
+.contact-details-checkbox{
+    display: flex;
+    align-items: center;
+}
+.contact-details-checkbox .form-check{
+    display: flex;
+    align-items: center;
+}
+.contact-details-checkbox .form-check-input{
+    width: 28px;
+    height: 28px;
+    border: 2px solid #707070;
+    border-radius: 6px;
+    margin-right: 20px;
+    box-shadow: none;
+}
+.contact-information-bar-wrapper .form-check-label{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #87939E;
+}
+.shipping-address-wrapper h3{
+    font-size: 28px;
+    line-height: 31px;
+    font-weight: 500;
+    color: #1239A5;
+    margin-bottom: 30px;
+}
+.shipping-address-name{
+    display: flex;
+}
+.shipping-address-information-bar{
+    padding: 21px 30px;
+}
+.left-bar{
+    margin-right: 20px; 
+}
+.shipping-address-wrapper .input-group{
+    width: 100%
+}
+.shipping-address-information-bar::placeholder{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #87939E;
+}
+.shipping-address-wrapper  .form-check-label{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #87939E;
+}
+.shipping-details-checkbox{
+    margin-bottom: 60px;
+}
+.shipping-address-btn{
+    padding: 21px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #49B7D1;
+    border-radius: 12px;
+}
+.return-to-cart{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #F3283D;
+    margin-left: 40px;
+}

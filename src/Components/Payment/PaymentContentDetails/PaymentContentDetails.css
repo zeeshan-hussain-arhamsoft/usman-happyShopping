@@ -1,0 +1,113 @@
+.payment-details-wrapper{
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.payment-details-path{
+    margin-bottom: 46px;
+}
+.payment-details-path strong{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #0B0C14;
+}
+.shipping-details-confirmation-wrapper{
+    border: 1px solid #CECED0;
+    padding: 20px 30px;
+    margin-bottom: 60px;
+}
+.shipping-details-confirmation{
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #DFDFDF;
+    margin-bottom: 20px;
+}
+
+.shipping-details-confirmation-labels h6{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #87939E;
+}
+.shipping-details-cinfirmation-data{
+    position: relative;
+}
+.shipping-details-cinfirmation-data h6{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #0B0C14;
+}
+.shipping-details-changing-link{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #1239A5;
+}
+.payment-method-heading{
+    margin-bottom: 30px;
+}
+.payment-method-heading h5{
+    font-size: 28px;
+    line-height: 31px;
+    font-weight: 500;
+    color: #0B0C14;
+}
+.payment-method-heading span{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #87939E;
+}
+.payment-method-radio .form-check-inline{
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+.payment-method-radio .form-check-inline::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #DFDFDF;
+    bottom: -9px;
+    left: 12px; 
+}
+.payment-method-radio .form-check-input{
+    width: 28px;
+    height: 28px;
+    border: 2px solid #87939E;
+    margin-right: 18px;
+}
+.payment-method-radio .form-check-input:checked{
+    background-color: #F3283D;
+    border: none;
+}
+.payment-method-radio .form-check-input:checked .form-check-label{
+    color: #0B0C14;
+}
+.payment-method-radio .form-check-input:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+.complete-order{
+    text-decoration: none;
+    display: inline-block;
+    padding: 21px 40px;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #49B7D1;
+    border-radius: 12px;
+    margin-right: 40px;
+}
+.return-to-shipping{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #0B0C14  ;
+}

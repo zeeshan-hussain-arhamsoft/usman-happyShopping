@@ -26,7 +26,7 @@ function LogoSearch() {
 										<input type="text" className="form-control search-bar" placeholder="What are you looking for?" aria-label="Search" aria-describedby="basic-addon2" />
 									</div>
 									<div className="input-group-append search-button">
-										<button className="hvr-bounce-to-right btn search-btn" type="submit"><img src="images/search-icon.svg" alt="" /> Search</button>
+										<button className="hvr-bounce-to-right btn search-btn" type="submit"><img src={Images.Search} alt="" /> Search</button>
 									</div>
 								</form>
 							</div>
