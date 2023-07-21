@@ -21,7 +21,7 @@ function App() {
 				<Route path='/AddToCartItems' element={<AddToCartItems/>}/>
 				<Route path='/ShoppingCart' element={<ShoppingCart/>} />
 				<Route path='/OrdersDetails' element={<OrdersDetails/>}/>
-				<Route path='/OrderNumDetails' element={<OrderNumDetails/>} />
+				{/* <Route path='/OrderNumDetails' element={<OrderNumDetails/>} /> */}
 				<Route path='/ContactDetails' element={<ContactDetails/>} />
 				<Route path='/Payment' element={<Payment/>} />
 				<Route path='/Shipping' element={<Shipping/>} />

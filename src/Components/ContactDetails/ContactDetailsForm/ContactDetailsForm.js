@@ -10,7 +10,7 @@ function ContactDetailsForm() {
 			</div>
 			<div className='contact-details-heading'>
 				<h3>Contact Information</h3>
-				<span>Already have an account? <Link to='/' className='contact-details-login-link'> Log In</Link></span>
+				<span>Already have an account? <Link to='/Login' className='contact-details-login-link'> Log In</Link></span>
 			</div>
 			<div className='contact-information-bar-wrapper'>
 				<Form action="/" className="contact-information-bar-form">

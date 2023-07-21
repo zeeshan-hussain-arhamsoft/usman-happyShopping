@@ -15,7 +15,6 @@ function LoginForm() {
 				</Container>
 			</div>
 			<section id='login'>
-
 				<div className='login-wrapper'>
 					<h5>Log In To Your Account</h5>
 					<Form action="/" className="login-bar-form">
@@ -33,7 +32,6 @@ function LoginForm() {
 							<button className="hvr-bounce-to-right btn login-btn" type="submit">Log In</button>
 						</div>
 					</Form>
-
 				</div>
 			</section>
 		</div>
