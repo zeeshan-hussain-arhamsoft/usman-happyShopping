@@ -10,7 +10,7 @@ function LogoSearch() {
 			<section id="logo-search">
 				<Container>
 					<Row className="align-items-center">
-						<Col lg={2}>
+						<Col lg={2} md={2}>
 							<div className="header-logo">
 								<strong className="d-inline-block company-logo">
 									<Link to="/" className="d-inline-block">
@@ -19,7 +19,7 @@ function LogoSearch() {
 								</strong>
 							</div>
 						</Col>
-						<Col lg={6}>
+						<Col lg={6} md={6}>
 							<div className="search-bar-wrapper">
 								<form action="/" className="search-bar-form">
 									<div className="input-group">
@@ -31,7 +31,7 @@ function LogoSearch() {
 								</form>
 							</div>
 						</Col>
-						<Col lg={4}>
+						<Col lg={4} md={4}>
 							<div className="mycart">
 								<div className="heart">
 									<img src={Images.heartIcon} alt="" />

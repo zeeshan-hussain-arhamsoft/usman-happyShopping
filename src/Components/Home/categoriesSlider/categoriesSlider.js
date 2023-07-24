@@ -1,7 +1,8 @@
 import React, { useState, Component, useEffect } from 'react';
-import Slider from "react-slick";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 import CategoriesSliderCards from "../CategoriesSliderCards/CategoriesSliderCards";
 import { Images } from "../../../Assets/Assets";
 import { Row } from "react-bootstrap";
@@ -14,17 +15,48 @@ function SimpleSlider() {
 		setHeart(!heart)
 		console.log(heart);
 	}
-	const settings = {
+	const settings_3 = {
 		dots: false,
 		infinite: true,
 		arrows: true,
 		speed: 300,
 		slidesToShow: 4,
 		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1400,
+				settings: {
+					slidesToShow:3,
+					slidesToScroll:1,
+				}
+			},
+			{
+			  breakpoint: 1024,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,				
+			  }
+			},
+			{
+			  breakpoint: 992,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				initialSlide: 2
+			  }
+			},
+			{
+			  breakpoint: 480,
+			  settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			  }
+			}
+		  ]
 	}
 	return (
 		<div className="slider-wrapper wrapper">
-			<Slider {...settings}>
+			<Slider {...settings_3}>
 				<div>
 					<div className="categories-slier-items">
 						<div className="add-cart">

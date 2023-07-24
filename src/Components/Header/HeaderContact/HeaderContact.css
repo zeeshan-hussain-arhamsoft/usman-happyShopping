@@ -1,19 +1,22 @@
-#track-order-cashback{
+#track-order-cashback {
 	background-color: #F9F9F9;
-	
+
 }
-.cashback-row-wrapper{
+
+.cashback-row-wrapper {
 	padding: 19px 0;
 }
-.cashback{
+
+.cashback {
 	display: flex;
 	align-items: center;
 }
-.tag-icon{
+
+.tag-icon {
 	margin-right: 10px;
 }
 
-.cashback p{
+.cashback p {
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	line-height: 19px;
@@ -22,25 +25,30 @@
 	opacity: 0.9;
 	margin: 0;
 }
-.cashback-email-ul{
+
+.cashback-email-ul {
 	list-style: none;
 	display: flex;
 	padding: 0;
-    justify-content: end;
+	justify-content: end;
 	align-items: center;
 	margin: 0;
 }
-.cashback-email-ul li{
+
+.cashback-email-ul li {
 	margin-right: 50px;
 }
-.track-order{
+
+.track-order {
 	display: flex;
 	align-items: center;
 }
-.truck-icon{
+
+.truck-icon {
 	margin-right: 10px;
 }
-.track-order-anchor{
+
+.track-order-anchor {
 	text-decoration: none;
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
@@ -49,15 +57,18 @@
 	color: #3F5B6C;
 	opacity: 0.9;
 }
-.track-order-anchor:hover{
+
+.track-order-anchor:hover {
 	border-bottom: 1px solid #49B7D1;
 }
-.email i{
+
+.email i {
 	font-size: 22px;
-	color: #49B7D1	;
+	color: #49B7D1;
 	margin-right: 10px;
 }
-.company-email-address{
+
+.company-email-address {
 	text-decoration: none;
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
@@ -66,43 +77,92 @@
 	color: #3F5B6C;
 	opacity: 0.9;
 }
-.region-li .btn-success{
-    background-color: transparent;
-    color: #3F5B6C;
-    border: none;
+
+.region-li .btn-success {
+	background-color: transparent;
+	color: #3F5B6C;
+	border: none;
 }
-.usd-btn{
+
+.usd-btn {
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	line-height: 19px;
 	font-weight: 500;
-	color: #3F5B6C	;
+	color: #3F5B6C;
 }
-.flag-img{
+
+.flag-img {
 	width: 22px;
 	height: auto;
 	margin-right: 10px;
 }
-.flag-img img{
+
+.flag-img img {
 	width: 100%;
 }
-.language-li .btn-success{
-    background-color: transparent;
-    color: #3F5B6C;
-    border: none;
+
+.language-li .btn-success {
+	background-color: transparent;
+	color: #3F5B6C;
+	border: none;	
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 500;
+
 }
-.language-li .btn:hover{
-    background-color: transparent;
-    color: #3F5B6C;
-    border: none;
+
+.language-li .btn:hover {
+	background-color: transparent;
+	color: #3F5B6C;
+	border: none;
 }
-.language-li .btn:active{
-    color: #3F5B6C;
+
+.language-li .btn:active {
+	color: #3F5B6C;
 }
-.language-btn{
+
+.language-btn {
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	line-height: 19px;
 	font-weight: 500;
-	color: #3F5B6C	;
+	color: #3F5B6C;
+}
+
+@media(max-width:1399px) {
+	.cashback-row-wrapper {
+		padding: 8px 0;
+	}
+
+	.cashback p {
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.cashback-email-ul li {
+		margin-right: 20px;
+	}
+	.track-order-anchor{
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.company-email-address{
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.usd-btn{
+		font-size: 13px;
+		line-height: 19px;
+	}
+	.language-li .btn-success{
+		font-size: 13px;
+		line-height: 16px;
+	}
+}
+@media(max-width:1039px){
+	.track-order-anchor {
+		font-size: 12px;
+		line-height: 15px;
+	}
 }

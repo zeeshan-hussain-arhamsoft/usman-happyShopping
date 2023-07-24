@@ -11,7 +11,7 @@ function HeaderContact() {
 				<Container>
 					<div className="cashback-row-wrapper">
 						<Row className="align-items-center">
-							<Col lg={6}>
+							<Col lg={6} md={5}>
 								<div className="cashback">
 									<div className="tag-icon">
 										<img src={Images.TagIcon} alt="" />
@@ -19,7 +19,7 @@ function HeaderContact() {
 									<p>Get upto 25% cashback on your first order</p>
 								</div>
 							</Col>
-							<Col lg={6}>
+							<Col lg={6} md={7}>
 								<ul className="cashback-email-ul">
 									<li>
 										<div className="track-order">

@@ -1,43 +1,149 @@
-#nav-bar{
-	background-color: #1239A5 ;
-	padding: 31px 0	;
+#nav-bar {
+	background-color: #1239A5;
+	padding: 31px 0;
 }
-.grid-icon{	
+
+.grid-icon {
 	width: 24px;
 	height: 24px;
 	margin-right: 12px;
 }
-.grid-icon img{
+
+.grid-icon img {
 	width: 100%;
 }
-.categories-btn{
-	font-family:'Poppins', sans-serif;
+
+.categories-btn {
+	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 	line-height: 21px;
 	font-weight: 600;
 	color: #FFFFFF;
 }
-.nav-link{
-	font-family:'Poppins', sans-serif;
+
+.nav-link {
+	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 	line-height: 21px;
 	font-weight: 500;
-	color: #FFFFFF	;
+	color: #FFFFFF;
 }
-.nav-item{
-    margin-left: 100px;
+
+.nav-item {
+	margin-left: 100px;
 }
-.categories .btn-success{
-    background-color: transparent;
-    border: none;
+
+.categories .btn-success {
+	background-color: transparent;
+	border: none;
 }
-.categories .btn-success:hover{
-    background-color: transparent;
-    border: none;
+
+.categories .btn-success:hover {
+	background-color: transparent;
+	border: none;
 }
-.categories .dropdown-toggle::after{
-    display: none;
+
+.categories .dropdown-toggle::after {
+	display: none;
 }
-.drop-down-icon{
-    margin-left: 60px;
+
+.drop-down-icon {
+	margin-left: 60px;
+}
+
+@media(max-width:1650px) {
+	#nav-bar {
+		padding: 16px 0;
+	}
+
+	.drop-down-icon {
+		margin-left: 33px;
+	}
+
+	.categories-btn {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.nav-link {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.nav-item {
+		margin-left: 70px;
+	}
+}
+
+@media(max-width:1399px) {
+	#nav-bar {
+		padding: 16px 0;
+	}
+
+	.drop-down-icon {
+		margin-left: 33px;
+	}
+
+	.categories-btn {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.nav-link {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.nav-item {
+		margin-left: 70px;
+	}
+
+	.nav-item {
+		margin-left: 35px;
+	}
+
+}
+
+@media(max-width:1039px) {
+	.nav-item {
+		margin-left: 20px;
+	}
+
+	.nav-link {
+		font-size: 14px;
+		line-height: 17px;
+	}
+}
+
+@media(max-width:991px) {
+	.navbar-collapse {
+		position: absolute;
+		left: 0;
+		top: 37px;
+		right: 0;
+		z-index: 1;
+		background-color: #49B7D1;
+		border-radius: 10px;
+		padding: 0 10px;
+	}
+
+	.navbar-toggler {
+		border: none;
+		color: #49B7D1;
+		position: absolute;
+		right: 0;
+		top: -34px;
+	}
+
+	.client-dropdown {
+		margin-left: 0;
+	}
+
+	.computers-col-wrapper {
+		margin-bottom: 35px;
+	}
+
+	.phone-col-wrapper {
+		margin-bottom: 35px;
+	}
 }

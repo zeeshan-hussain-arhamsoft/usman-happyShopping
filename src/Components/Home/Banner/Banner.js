@@ -13,7 +13,7 @@ function Banner() {
 						<div className='banner-img'>
 							<img src={Images.homeBanner} />
 						</div>
-						<div className='banner-content-wrapper'>
+						{/* <div className='banner-content-wrapper'>
 							<div className='product-name'>
 								<h3>Smart Home</h3>
 								<span>Get Flat 15% Off on order</span>
@@ -23,7 +23,7 @@ function Banner() {
 								<span>Great Deals Every weekends</span>
 								<h3>Only $499</h3>
 							</div>
-						</div>
+						</div> */}
 					</div>
 					<Row>
 						<Col lg={4}>
