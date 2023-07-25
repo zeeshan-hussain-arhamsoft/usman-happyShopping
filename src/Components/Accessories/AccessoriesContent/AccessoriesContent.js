@@ -36,7 +36,7 @@ function AccessoriesContent() {
 							<div className='discount'>
 								<span>25% off</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -66,7 +66,7 @@ function AccessoriesContent() {
 				</Col>
 				<Col lg={4} className='mb-5'>
 					<div className='accessories-card-col'>
-						<div className='heart-img'>
+						<div className='heart-img heart-icon'>
 							<img src={Images.categoriesHeart} alt='' />
 						</div>
 						<div className='accessories-card-img-wrapper'>
@@ -99,7 +99,7 @@ function AccessoriesContent() {
 							<div className="hp-card">
 								<span>New</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -134,7 +134,7 @@ function AccessoriesContent() {
 							<div className='discount'>
 								<span>25% off</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -164,7 +164,7 @@ function AccessoriesContent() {
 				</Col>
 				<Col lg={4} className='mb-5'>
 					<div className='accessories-card-col'>
-						<div className='heart-img'>
+						<div className='heart-img heart-icon'>
 							<img src={Images.categoriesHeart} alt='' />
 						</div>
 						<div className='accessories-card-img-wrapper'>
@@ -197,7 +197,7 @@ function AccessoriesContent() {
 							<div className="hp-card">
 								<span>New</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -232,7 +232,7 @@ function AccessoriesContent() {
 							<div className='discount'>
 								<span>25% off</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -262,7 +262,7 @@ function AccessoriesContent() {
 				</Col>
 				<Col lg={4} className='mb-5'>
 					<div className='accessories-card-col'>
-						<div className='heart-img'>
+						<div className='heart-img heart-icon'>
 							<img src={Images.categoriesHeart} alt='' />
 						</div>
 						<div className='accessories-card-img-wrapper'>
@@ -295,7 +295,7 @@ function AccessoriesContent() {
 							<div className="hp-card">
 								<span>New</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -330,7 +330,7 @@ function AccessoriesContent() {
 							<div className='discount'>
 								<span>25% off</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -360,7 +360,7 @@ function AccessoriesContent() {
 				</Col>
 				<Col lg={4} className='mb-5'>
 					<div className='accessories-card-col'>
-						<div className='heart-img'>
+						<div className='heart-img heart-icon'>
 							<img src={Images.categoriesHeart} alt='' />
 						</div>
 						<div className='accessories-card-img-wrapper'>
@@ -393,7 +393,7 @@ function AccessoriesContent() {
 							<div className="hp-card">
 								<span>New</span>
 							</div>
-							<div>
+							<div className='heart-icon'> 
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -428,7 +428,7 @@ function AccessoriesContent() {
 							<div className='discount'>
 								<span>25% off</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -458,7 +458,7 @@ function AccessoriesContent() {
 				</Col>
 				<Col lg={4} className='mb-5'>
 					<div className='accessories-card-col'>
-						<div className='heart-img'>
+						<div className='heart-img heart-icon'>
 							<img src={Images.categoriesHeart} alt='' />
 						</div>
 						<div className='accessories-card-img-wrapper'>
@@ -491,7 +491,7 @@ function AccessoriesContent() {
 							<div className="hp-card">
 								<span>New</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -526,7 +526,7 @@ function AccessoriesContent() {
 							<div className='discount'>
 								<span>25% off</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -556,7 +556,7 @@ function AccessoriesContent() {
 				</Col>
 				<Col lg={4} className='mb-5'>
 					<div className='accessories-card-col'>
-						<div className='heart-img'>
+						<div className='heart-img heart-icon'>
 							<img src={Images.categoriesHeart} alt='' />
 						</div>
 						<div className='accessories-card-img-wrapper'>
@@ -589,7 +589,7 @@ function AccessoriesContent() {
 							<div className="hp-card">
 								<span>New</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -624,7 +624,7 @@ function AccessoriesContent() {
 							<div className='discount'>
 								<span>25% off</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -654,7 +654,7 @@ function AccessoriesContent() {
 				</Col>
 				<Col lg={4} className='mb-5'>
 					<div className='accessories-card-col'>
-						<div className='heart-img'>
+						<div className='heart-img heart-icon'>
 							<img src={Images.categoriesHeart} alt='' />
 						</div>
 						<div className='accessories-card-img-wrapper'>
@@ -687,7 +687,7 @@ function AccessoriesContent() {
 							<div className="hp-card">
 								<span>New</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -722,7 +722,7 @@ function AccessoriesContent() {
 							<div className='discount'>
 								<span>25% off</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>
@@ -752,7 +752,7 @@ function AccessoriesContent() {
 				</Col>
 				<Col lg={4} className='mb-5'>
 					<div className='accessories-card-col'>
-						<div className='heart-img'>
+						<div className='heart-img heart-icon'>
 							<img src={Images.categoriesHeart} alt='' />
 						</div>
 						<div className='accessories-card-img-wrapper'>
@@ -785,7 +785,7 @@ function AccessoriesContent() {
 							<div className="hp-card">
 								<span>New</span>
 							</div>
-							<div>
+							<div className='heart-icon'>
 								<img src={Images.categoriesHeart} alt='' />
 							</div>
 						</div>

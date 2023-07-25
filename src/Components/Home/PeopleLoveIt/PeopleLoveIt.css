@@ -10,3 +10,12 @@
 	font-weight: 700;
 	color: #0B0C14;
 }
+@media(max-width:1399px){
+	.offers-heading h3{
+		font-size: 32px;
+        line-height: 35px;
+	}
+	.offers-heading {
+		margin-bottom: 40px;
+	}
+}

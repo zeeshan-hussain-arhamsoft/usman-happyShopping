@@ -38,25 +38,25 @@ function HeaderNavigation() {
 									<Nav className='ms-auto'>
 										<ul className="navbar-nav nav-ul">
 											<li className="nav-item">
-												<Link className="nav-link" to="/">Home</Link>
+												<Link className="nav-link hvr-underline-from-center" to="/">Home</Link>
 											</li>
 											<li className="nav-item">
-												<Link className="nav-link" to="/">New Products</Link>
+												<Link className="nav-link hvr-underline-from-center" to="/">New Products</Link>
 											</li>
 											<li className="nav-item">
-												<Link className="nav-link" to="/">Best Sales</Link>
+												<Link className="nav-link hvr-underline-from-center" to="/">Best Sales</Link>
 											</li>
 											<li className="nav-item">
-												<Link className="nav-link" to="/">Promotions</Link>
+												<Link className="nav-link hvr-underline-from-center" to="/">Promotions</Link>
 											</li>
 											<li className="nav-item">
-												<Link className="nav-link" to="/">Offers</Link>
+												<Link className="nav-link hvr-underline-from-center" to="/">Offers</Link>
 											</li>
 											<li className="nav-item">
-												<Link className="nav-link" to="/">Catalog</Link>
+												<Link className="nav-link hvr-underline-from-center" to="/">Catalog</Link>
 											</li>
 											<li className="nav-item">
-												<Link className="nav-link" to="/">More</Link>
+												<Link className="nav-link hvr-underline-from-center" to="/">More</Link>
 											</li>
 										</ul>
 									</Nav>

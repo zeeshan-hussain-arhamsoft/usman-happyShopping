@@ -25,12 +25,12 @@ function Footer() {
                                 <div className="footer-ul">
                                     <h3 className='footer-list-heading'>Customer Service</h3>
                                     <ul className="footer_list">
-                                        <li><Link to="/" className=" footer_anc"> Service & Warranty </Link></li>
-                                        <li><Link to="/" className=" footer_anc"> Return & Exchange </Link></li>
-                                        <li><Link to="/" className=" footer_anc">Secure Online Payments  </Link></li>
-                                        <li><Link to="/" className=" footer_anc"> Cash on Delivery</Link></li>
-                                        <li><Link to="/" className=" footer_anc"> Shipping & Delivery</Link></li>
-                                        <li><Link to="/" className=" footer_anc"> Valet Trolley & Home Delivery</Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc"> Service & Warranty </Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc"> Return & Exchange </Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc">Secure Online Payments  </Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc"> Cash on Delivery</Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc"> Shipping & Delivery</Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc"> Valet Trolley & Home Delivery</Link></li>
                                     </ul>
                                 </div>
                             </Col>
@@ -38,9 +38,9 @@ function Footer() {
                                 <div className="footer-ul">
                                 <h3 className='footer-list-heading'>About Us</h3>
                                     <ul className="footer_list footer-second-list">
-                                        <li><Link to="/" className=" footer_anc"> All brands </Link></li>
-                                        <li><Link to="/" className=" footer_anc"> Newsletter </Link></li>
-                                        <li><Link to="/" className=" footer_anc">News & Press Releases</Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc"> All brands </Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc"> Newsletter </Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc">News & Press Releases</Link></li>
                                     </ul>
                                 </div>
                             </Col>
@@ -48,10 +48,10 @@ function Footer() {
                             <div className="footer-ul">
                                 <h3 className='footer-list-heading'>Helping you save</h3>
                                     <ul className="footer_list footer-second-list">
-                                        <li><Link to="/" className=" footer_anc"> Extended Warranty Retail </Link></li>
-                                        <li><Link to="/" className=" footer_anc"> Gift Card  </Link></li>
-                                        <li><Link to="/" className=" footer_anc">Exclusive Discounts</Link></li>
-                                        <li><Link to="/" className=" footer_anc">Offers</Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc"> Extended Warranty Retail </Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc"> Gift Card  </Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc">Exclusive Discounts</Link></li>
+                                        <li><Link to="/" className="hvr-underline-reveal footer_anc">Offers</Link></li>
                                     </ul>
                                 </div>
                             </Col>

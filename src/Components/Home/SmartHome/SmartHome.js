@@ -17,7 +17,7 @@ function SmartHome() {
 					<div className='smarthome-content'>
 						<h3>Smart Homes, Next Generation Devices</h3>
 						<h4>shop now & get 30% off on this festival season</h4>
-						<Link to="/" className='smart-home-link'> SAVE 30% OFF</Link>
+						<Link to="/" className='hvr-bounce-to-right-smartHome smart-home-link'> SAVE 30% OFF</Link>
 					</div>
 				 </div>
 			</Container>

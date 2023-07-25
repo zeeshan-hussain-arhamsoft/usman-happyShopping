@@ -20,7 +20,7 @@ function KeepInTouch() {
 										<input type="text" className="form-control keep-in-touch-search-bar" placeholder="Enter your email" aria-label="Search" aria-describedby="basic-addon2" />
 									</div>
 									<div className="input-group-append keep-in-touch-search-button">
-										<button className="hvr-bounce-to-right btn keep-in-touch-search-btn" type="submit"><img src="images/search-icon.svg" alt="" /> Subscribe</button>
+										<button className="hvr-bounce-to-right-subscribe btn keep-in-touch-search-btn" type="submit"><img src="images/search-icon.svg" alt="" /> Subscribe</button>
 									</div>
 								</form>
 							</div>

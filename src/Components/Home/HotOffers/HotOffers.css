@@ -68,6 +68,42 @@
 	display: inline-block;
 }
 
+.hvr-outline-in {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+}
+
+.hvr-outline-in:before {
+	pointer-events: none;
+	content: '';
+	position: absolute;
+	border: #F3283D solid 2px;
+	border-radius: 16px;
+	top: -16px;
+	right: -16px;
+	bottom: -16px;
+	left: -16px;
+	opacity: 0;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: top, right, bottom, left;
+	transition-property: top, right, bottom, left;
+}
+
+.hvr-outline-in:hover:before,
+.hvr-outline-in:focus:before,
+.hvr-outline-in:active:before {
+	top: -8px;
+	right: -8px;
+	bottom: -8px;
+	left: -8px;
+	opacity: 1;
+}
+
 .googleMini-content {
 	position: absolute;
 	bottom: 40px;
@@ -133,13 +169,63 @@
 	border-radius: 16px;
 	color: #0B0C14;
 	display: inline-block;
+	overflow: hidden;
 }
+
+.hvr-sweep-to-top {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-top:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #FEBE37;
+	-webkit-transform: scaleY(0);
+	transform: scaleY(0);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-top:hover,
+.hvr-sweep-to-top:focus,
+.hvr-sweep-to-top:active {
+	color: white;
+}
+
+.hvr-sweep-to-top:hover:before,
+.hvr-sweep-to-top:focus:before,
+.hvr-sweep-to-top:active:before {
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+}
+
 .miStores-content {
 	position: absolute;
 	bottom: 40px;
 	left: 80px;
 }
-.miStores-content h3{
+
+.miStores-content h3 {
 	font-size: 42px;
 	line-height: 45px;
 	font-weight: 600;
@@ -147,11 +233,102 @@
 	text-align: center;
 	color: #F3283D;
 }
-.miStores-content span{
+
+.miStores-content span {
 	font-size: 24px;
 	line-height: 27px;
 	font-weight: 600;
 	color: #87939E;
 	text-align: center;
 	display: block;
+}
+
+@media(max-width:1399px) {
+	.hot-offer-heading h3 {
+		font-size: 32px;
+		line-height: 35px;
+	}
+
+	.hot-offer-heading {
+		margin-bottom: 40px;
+	}
+
+	.VR-content span {
+		font-size: 18px;
+		line-height: 21px;
+		margin-bottom: 6px;
+	}
+
+	.VR-content h3 {
+		font-size: 30px;
+		line-height: 33px;
+		margin-bottom: 20px;
+	}
+
+	.VR-link {
+		font-size: 16px;
+		line-height: 19px;
+		padding: 16px 31px;
+		border-radius: 12px;
+	}
+
+	.googleMini-content h3 {
+		font-size: 32px;
+		line-height: 35px;
+	}
+
+	.googleMini-content span {
+		font-size: 17px;
+		line-height: 20px;
+	}
+
+	.hot-offer-col-wrapper {
+		margin-bottom: 20px;
+	}
+
+	.googleMini-content {
+		position: absolute;
+		bottom: 26px;
+		left: 55px;
+	}
+
+	.homeTheater-content h3 {
+		font-size: 32px;
+		line-height: 35px;
+	}
+
+	.homeTheater-content span {
+		font-size: 18px;
+		line-height: 21px;
+	}
+
+	.homeTheater-link {
+		font-size: 16px;
+		line-height: 19px;
+		padding: 13px 26px;
+		border-radius: 12px;
+	}
+
+	.homeTheater-content {
+		position: absolute;
+		top: 30px;
+		left: 38px;
+	}
+
+	.miStores-content h3 {
+		font-size: 32px;
+		line-height: 35px;
+	}
+
+	.miStores-content span {
+		font-size: 18px;
+		line-height: 21px;
+	}
+
+	.miStores-content {
+		position: absolute;
+		bottom: 26px;
+		left: 48px;
+	}
+
 }

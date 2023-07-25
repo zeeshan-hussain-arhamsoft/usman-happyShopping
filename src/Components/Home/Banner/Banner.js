@@ -31,7 +31,7 @@ function Banner() {
 								<div className='computer-content'>
 									<span>30% Off</span>
 									<h3>Computers</h3>
-									<Link to="/" className='computer-col-Link'>SHOP NOW</Link>
+									<Link to="/" className='hvr-bounce-in computer-col-Link'>SHOP NOW</Link>
 								</div>
 								<div className='computer-img'>
 									<img src={Images.computerProduct} />
@@ -43,7 +43,7 @@ function Banner() {
 								<div className='phones-content'>
 									<span>20% Off</span>
 									<h3>Mobile Phones</h3>
-									<Link to="/" className='phones-col-Link'>SHOP NOW</Link>
+									<Link to="/" className='hvr-bounce-in phones-col-Link'>SHOP NOW</Link>
 								</div>
 								<div className='computer-img'>
 									<img src={Images.PhonesProduct} />
@@ -55,7 +55,7 @@ function Banner() {
 								<div className='Accessories-content'>
 									<span>25% Off</span>
 									<h3>Accessories</h3>
-									<Link to="/" className='Accessories-col-Link'>SHOP NOW</Link>
+									<Link to="/" className='hvr-bounce-in Accessories-col-Link'>SHOP NOW</Link>
 								</div>
 								<div className='Accessories-img'>
 									<img src={Images.Asseccories} />

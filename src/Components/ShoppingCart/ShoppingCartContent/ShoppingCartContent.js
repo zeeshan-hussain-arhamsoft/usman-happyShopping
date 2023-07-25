@@ -9,11 +9,11 @@ function ShoppingCartContent() {
 	const [count, setCount] = useState(0);
 
 	const handleIncrement = () => {
-		setCount(count + 1);
+		setCount((prevCount) => prevCount + 1);
 	};
 
 	const handleDecrement = () => {
-		setCount(count - 1);
+		setCount((prevCount) => prevCount > 0 ? prevCount - 1 : 0);
 	};
 
 	return (

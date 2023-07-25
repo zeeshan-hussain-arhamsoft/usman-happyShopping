@@ -7,15 +7,44 @@ import { Images } from '../../../Assets/Assets';
 import TopProductsCards from '../TopProductsCards/TopProductsCards';
 import "./PeopleLoveIt.css";
 function SimpleSlider() {
-	const settings = {
+	const settings_3 = {
 		dots: false,
 		infinite: true,
 		arrows: true,
 		speed: 500,
 		slidesToShow: 4,
 		slidesToScroll: 1,
-		// className: "center",
-		// centerMode: true,
+		responsive: [
+			{
+				breakpoint: 1400,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					initialSlide: 2
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
 	};
 	return (
 		<div className='wrapper'>
@@ -25,7 +54,7 @@ function SimpleSlider() {
 						<h3>People Loved It</h3>
 					</div>
 					<div className="top-product-slider-wrapper wrapper">
-						<Slider {...settings}>
+						<Slider {...settings_3}>
 							<div>
 								<div className="categories-slier-items">
 									<div className="add-cart">

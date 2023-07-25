@@ -141,3 +141,54 @@
     color: #87939E;
     margin: 0 8px;
 }
+
+@media(max-width:1399px) {
+    .brand-type-col h5 {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 32px;
+    }
+    .accessories-img1 {
+        width: 135px;
+        margin-bottom: 0px;
+    }
+
+    .accessories-card-col {
+        border-radius: 15px;
+        padding: 23px 25px
+    }
+    .accessories-img2 {
+        width: 174px;
+    }
+    .card-wrapper span {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .card-wrapper h3 {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+    .card-wrapper {
+        margin-bottom: 24px;
+    }
+    .accessories-price strong {
+        font-size: 21px;
+        line-height: 24px;
+        margin-bottom: 9px;
+    }
+    .accessories-img3 {
+        width: 173px;
+
+    }
+    .accessories-img4 {
+        width: 172px;
+    }
+    .heart-icon{
+        width: 20px;
+        height: auto;
+    }
+    .heart-icon img{
+        width: 100%;
+    }
+}

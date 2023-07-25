@@ -1,63 +1,83 @@
-.contact-details-form-wrapper{
+.contact-details-form-wrapper {
     padding-top: 100px;
 }
-.contact-information{
+
+.contact-information {
     margin-bottom: 51px;
 }
+
 .contact-information strong {
     font-size: 20px;
     line-height: 23px;
     font-weight: 500;
 }
-.strong2{
+
+.strong2 {
     color: #87939E;
 }
-.contact-details-heading{
+
+.contact-details-heading {
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
 }
-.contact-details-heading h3{
+
+.contact-details-heading h3 {
     font-size: 28px;
     line-height: 31px;
     font-weight: 500;
     color: #1239A5;
 }
-.contact-details-heading span{
+
+.contact-details-heading span {
     font-size: 20px;
     line-height: 23px;
     font-weight: 500;
     color: #87939E;
 }
-.contact-details-login-link{
+
+.contact-details-login-link {
     text-decoration: none;
     color: #0B0C14;
 
 }
-.contact-information-bar-wrapper{
+
+.contact-information-bar-wrapper {
     margin-bottom: 60px;
 }
-.contact-information-bar-wrapper .input-group{
+
+.contact-information-bar-wrapper .input-group {
     width: 100%;
 }
 
-.contact-information-bar{
+.contact-information-bar {
     padding: 21px 30px;
     border: 1px solid #CECED0;
     border-radius: 10px;
 }
-.contact-info{
+
+.contact-information-bar::placeholder {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #87939E;
+}
+
+.contact-info {
     margin-bottom: 20px;
 }
-.contact-details-checkbox{
+
+.contact-details-checkbox {
     display: flex;
     align-items: center;
 }
-.contact-details-checkbox .form-check{
+
+.contact-details-checkbox .form-check {
     display: flex;
     align-items: center;
 }
-.contact-details-checkbox .form-check-input{
+
+.contact-details-checkbox .form-check-input {
     width: 28px;
     height: 28px;
     border: 2px solid #707070;
@@ -65,59 +85,161 @@
     margin-right: 20px;
     box-shadow: none;
 }
-.contact-information-bar-wrapper .form-check-label{
+
+.contact-information-bar-wrapper .form-check-label {
     font-size: 20px;
     line-height: 23px;
     font-weight: 500;
     color: #87939E;
 }
-.shipping-address-wrapper h3{
+
+.shipping-address-wrapper h3 {
     font-size: 28px;
     line-height: 31px;
     font-weight: 500;
     color: #1239A5;
     margin-bottom: 30px;
 }
-.shipping-address-name{
+
+.shipping-address-name {
     display: flex;
 }
-.shipping-address-information-bar{
+
+.shipping-address-information-bar {
     padding: 21px 30px;
 }
-.left-bar{
-    margin-right: 20px; 
+
+.left-bar {
+    margin-right: 20px;
 }
-.shipping-address-wrapper .input-group{
+
+.shipping-address-wrapper .input-group {
     width: 100%
 }
-.shipping-address-information-bar::placeholder{
+
+.shipping-address-information-bar::placeholder {
     font-size: 20px;
     line-height: 23px;
     font-weight: 500;
     color: #87939E;
 }
-.shipping-address-wrapper  .form-check-label{
+
+.shipping-address-wrapper .form-check-label {
     font-size: 20px;
     line-height: 23px;
     font-weight: 500;
     color: #87939E;
 }
-.shipping-details-checkbox{
+
+.shipping-details-checkbox {
     margin-bottom: 60px;
 }
-.shipping-address-btn{
+
+.shipping-address-btn {
     padding: 21px 40px;
     font-size: 20px;
     font-weight: 500;
     color: #FFFFFF;
     background-color: #49B7D1;
     border-radius: 12px;
+    overflow: hidden;
 }
-.return-to-cart{
+
+.return-to-cart {
     text-decoration: none;
     font-size: 20px;
     line-height: 23px;
     font-weight: 500;
     color: #F3283D;
     margin-left: 40px;
+}
+
+@media(max-width:1399px) {
+    .contact-details-form-wrapper {
+        padding-top: 60px;
+    } 
+    
+    #contact-details {
+        padding-bottom: 21px;
+    }
+
+    .contact-information {
+        margin-bottom: 31px;
+    }
+
+    .contact-information strong {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .contact-details-heading {
+        margin-bottom: 15px;
+    }
+
+    .contact-details-heading h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .contact-details-heading span {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .contact-information-bar {
+        padding: 15px 17px;
+        border-radius: 7px;
+    }
+
+    .contact-information-bar::placeholder {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .contact-details-checkbox .form-check-input {
+        width: 14px;
+        height: 14px;
+        border-radius: 3px;
+        margin-right: 10px;
+    }
+
+    .contact-information-bar-wrapper .form-check-label {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .contact-information-bar-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .shipping-address-wrapper h3 {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+
+    .shipping-address-information-bar {
+        padding: 15px 17px;
+        border-radius: 7px;
+    }
+
+    .shipping-address-information-bar::placeholder {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .shipping-address-wrapper .form-check-label {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .shipping-address-btn {
+        padding: 14px 18px;
+        font-size: 15px;
+    }
+
+    .return-to-cart {
+        font-size: 15px;
+        line-height: 18px;
+    }
 }

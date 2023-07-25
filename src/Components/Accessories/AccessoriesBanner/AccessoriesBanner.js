@@ -11,9 +11,9 @@ function AccessoriesBanner() {
 					<div className='accessories-banner-img'>
 						<img src={Images.accessoriesBanner} alt='' />
 					</div>
-					<div className='accessories-banner-content'>
+					{/* <div className='accessories-banner-content'>
 						<h3>Computer & Laptop <span>Collection</span></h3>
-					</div>
+					</div> */}
 				</div>				
 			</section>
 		</div>

@@ -1,10 +1,17 @@
 import React from 'react';
-import { Container, Row, Col,Dropdown } from 'react-bootstrap';
+import { useState } from 'react';
+import { Container, Row, Col, Dropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Images } from '../../../Assets/Assets';
 import "./LogoSearch.css";
 
 function LogoSearch() {
+	const [heart, setHeart] = useState(true);
+	function addWishlist() {
+		console.log(heart);
+		setHeart(!heart)
+		console.log(heart);
+	}
 	return (
 		<div className='wrapper'>
 			<section id="logo-search">
@@ -33,8 +40,12 @@ function LogoSearch() {
 						</Col>
 						<Col lg={4} md={4}>
 							<div className="mycart">
-								<div className="heart">
-									<img src={Images.heartIcon} alt="" />
+								<div onClick={addWishlist} className='wishlist'>
+									{heart ?
+										<img src={Images.categoriesHeart} alt='' />
+										:
+										<img src={Images.redHeart} alt='' />
+									}								
 								</div>
 								<div className="cart-wrapper">
 									<div className="shopping-cart">

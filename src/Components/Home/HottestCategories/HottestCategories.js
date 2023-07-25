@@ -13,7 +13,7 @@ function HottestCategories() {
 				<Container>
 					<div className='hottest-categories-heading'>
 						<h2>Browse our hottest categories</h2>
-						<Link to='/' className='hottest-categories-link'>Shop Now</Link>
+						<Link to='/' className='hvr-buzz hottest-categories-link'>Shop Now</Link>
 					</div>
 					<Row>
 						<Col lg={2}>

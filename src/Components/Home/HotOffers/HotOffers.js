@@ -22,7 +22,7 @@ function HotOffers() {
 									<span>Google Glasses</span>
 									<h3>Vr, Reality World</h3>
 									<div className='VR-link-wrapper'>
-										<Link to="/" className='VR-link'>EXPLORE MORE</Link>
+										<Link to="/" className='hvr-outline-in VR-link'>EXPLORE MORE</Link>
 									</div>
 								</div>
 							</div>
@@ -36,7 +36,7 @@ function HotOffers() {
 									<span>Branded Handfree</span>
 									<h3>Smart Accessories</h3>
 									<div className='VR-link-wrapper'>
-										<Link to="/" className='VR-link'>SAVE 30% OFF</Link>
+										<Link to="/" className='hvr-outline-in VR-link'>SAVE 30% OFF</Link>
 									</div>
 								</div>
 							</div>
@@ -61,7 +61,7 @@ function HotOffers() {
 									<h3>Boss, Home Theatre</h3>
 									<span>Next Gen, Smart Homes</span>
 									<div className='homeTheater-link-wrapper'>
-										<Link to="/" className='homeTheater-link'>SAVE 30% OFF</Link>
+										<Link to="/" className='hvr-sweep-to-top homeTheater-link'>SAVE 30% OFF</Link>
 									</div>
 								</div>
 							</div>

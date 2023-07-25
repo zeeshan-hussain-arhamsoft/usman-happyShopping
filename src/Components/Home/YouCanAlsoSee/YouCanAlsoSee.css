@@ -11,3 +11,13 @@
     font-weight: 700;
     color: #0B0C14;
 }
+@media(max-width:1399px){
+    .you-see-heading h3 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    #youcansee {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+}

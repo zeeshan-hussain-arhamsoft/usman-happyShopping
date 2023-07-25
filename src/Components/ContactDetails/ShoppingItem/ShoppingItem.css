@@ -15,6 +15,11 @@
 .shopping-item-img img{
     width: 100%;
 }
+
+.shopping-item-details{
+    flex: 1;
+}
+
 .shopping-item-details h5{
     font-size: 20px;
     line-height: 23px;
@@ -98,4 +103,60 @@
     line-height: 21px;
     font-weight: 500;
     color: #87939E;
+}
+@media(max-width:1399px){
+    .shopping-item-wrapper {
+        background-color: #F2F3F6;
+        padding: 60px 60px 0 60px;
+    }
+
+    .shopping-item-details h5 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .shopping-items-details-wrapper strong {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .shopping-items-details-wrapper{
+        margin-bottom: 20px;
+    }
+    .shopping-item-subtotal h6 {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .shopping-item-subtotal strong {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .shopping-item-shipping-price h6{
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .shopping-item-shipping-price strong{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .shopping-item-shipping-price{
+        margin-bottom: 44px;
+    }
+    .shopping-item-shipping-price::before{
+        bottom: -16px;
+    }
+    .shopping-item-total-price h6{
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .shopping-item-total-price strong{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .shopping-item-total-price span {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .shopping-item-img {
+        width: 80px;
+        height: 80px;
+    }
 }
