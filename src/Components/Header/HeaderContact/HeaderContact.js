@@ -11,7 +11,7 @@ function HeaderContact() {
 				<Container>
 					<div className="cashback-row-wrapper">
 						<Row className="align-items-center">
-							<Col lg={6} md={5}>
+							<Col lg={6} md={5} sm={7}>
 								<div className="cashback">
 									<div className="tag-icon">
 										<img src={Images.TagIcon} alt="" />
@@ -19,27 +19,32 @@ function HeaderContact() {
 									<p>Get upto 25% cashback on your first order</p>
 								</div>
 							</Col>
-							<Col lg={6} md={7}>
+							<Col lg={6} md={7} sm={5}>
 								<ul className="cashback-email-ul">
 									<li>
 										<div className="track-order">
-											<div className="truck-icon">
-												<img src={Images.truckIcon} alt="" />
-											</div>
-											<Link to="/" className="track-order-anchor">rack Order</Link>
+
+											<Link to="/" className="track-order-anchor">
+												<div className="truck-icon">
+													<img src={Images.truckIcon} alt="" />
+												</div>
+												<span>Track Order</span>
+											</Link>
 										</div>
 									</li>
 									<li>
 										<div className="email">
-											<img src={Images.emailIcon} alt='' />
-											<Link to="mailto:Admin@email.com" className="company-email-address">Admin@email.com</Link>
+											<Link to="mailto:Admin@email.com" className="company-email-address">
+												<img src={Images.emailIcon} alt='' />
+												<span>Admin@email.com</span>
+											</Link>
 										</div>
 									</li>
 									<li className='region-li'>
 										<Dropdown className="dropdown language">
 											<Dropdown.Toggle variant="success" id="dropdown-basic" className='language-dropdown-button d-flex align-items-center usd-btn'>
 												<div className="flag-img">
-													<img src={Images	.Flag} alt="" className="language-flag" />
+													<img src={Images.Flag} alt="" className="language-flag" />
 												</div>
 												USD
 											</Dropdown.Toggle>

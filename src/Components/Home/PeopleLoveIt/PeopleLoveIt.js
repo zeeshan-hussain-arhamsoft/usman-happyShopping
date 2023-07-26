@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react';
 import { Container } from 'react-bootstrap';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -38,7 +38,7 @@ function SimpleSlider() {
 				}
 			},
 			{
-				breakpoint: 480,
+				breakpoint: 576,
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1
@@ -67,7 +67,6 @@ function SimpleSlider() {
 											</div>
 										</div>
 										<TopProductsCards categoriesItems={Images.peopleLoved1} companyName="Apple" itemsSpecs=" iMac 27 Retina 5K Display" itemprice="$1,799" oldPrice="$1,899" />
-
 										<div className="countercart">
 											<div className="counter">
 												<div className="counter-reduce">
@@ -154,7 +153,7 @@ function SimpleSlider() {
 								<div className="categories-slier-items">
 									<div className="add-cart">
 										<div className='itmes-cart d-flex justify-content-end'>
-											
+
 											<div className=''>
 												<img src={Images.categoriesHeart} alt='' />
 											</div>
@@ -223,7 +222,6 @@ function SimpleSlider() {
 											</div>
 										</div>
 										<TopProductsCards categoriesItems={Images.peopleLoved2} companyName="Dell" itemsSpecs=" Dell XPS 15 9575 (X360)" itemprice="$1724" />
-
 										<div className="countercart">
 											<div className="counter">
 												<div className="counter-reduce">
@@ -278,7 +276,7 @@ function SimpleSlider() {
 								<div className="categories-slier-items">
 									<div className="add-cart">
 										<div className='itmes-cart d-flex justify-content-end'>
-											
+
 											<div className=''>
 												<img src={Images.categoriesHeart} alt='' />
 											</div>
@@ -303,12 +301,11 @@ function SimpleSlider() {
 									</div>
 								</div>
 							</div>
-
 						</Slider>
 					</div>
 				</Container>
 			</section>
 		</div>
-	)
+	);
 }
 export default SimpleSlider;

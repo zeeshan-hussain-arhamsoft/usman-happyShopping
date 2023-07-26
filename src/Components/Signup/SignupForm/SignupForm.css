@@ -1,69 +1,201 @@
-#signup-form{
-    padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 100px;
+#signup-form {
+	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 100px;
 }
-.signup-wrapper{
-    width: 960px;
-    padding: 80px;
-    border: 1px solid #CECED0;
-    border-radius: 10px;
+
+.signup-wrapper {
+	width: 960px;
+	padding: 80px;
+	border: 1px solid #CECED0;
+	border-radius: 10px;
 }
-.signup-heading-wrapper{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 65px;
+
+.signup-heading-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 65px;
 }
-.signup-heading-wrapper h5{
-    font-size: 28px;
-    line-height: 31px;
-    font-weight: 600;
-    color: #1239A5;
+
+.signup-heading-wrapper h5 {
+	font-size: 28px;
+	line-height: 31px;
+	font-weight: 600;
+	color: #1239A5;
 }
-.signup-heading-wrapper span{
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 500;
-    color: #0B0C14;
+
+.signup-heading-wrapper span {
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 500;
+	color: #0B0C14;
 }
-.return-login{
-    text-decoration: none;
-    color: #1239A5;
+
+.return-login {
+	text-decoration: none;
+	color: #1239A5;
 }
-.signup-name-wrapper{
-    display: flex;
+
+.signup-name-wrapper {
+	display: flex;
 }
-.signup-bar{
-    padding: 21px 30px;
-    border: 1px solid #CECED0;
-    border-radius: 10px;
-    margin-bottom: 20px;
+
+.signup-bar {
+	padding: 21px 30px;
+	border: 1px solid #CECED0;
+	border-radius: 10px;
+	margin-bottom: 20px;
 }
-.signup-bar::placeholder{
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 500;
-    color: #87939E;
+
+.signup-bar::placeholder {
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 500;
+	color: #87939E;
 }
-.signup-lastname{
-    margin-left: 20px;
+
+.signup-lastname {
+	margin-left: 20px;
 }
-.signup-wrapper .input-group{
-    width: 100%;
+
+.signup-wrapper .input-group {
+	width: 100%;
 }
-.signup-button{
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
+
+.signup-button {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
 }
-.signup-btn{
-    padding: 21px 82px;
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 700;
-    color: #FFFFFF;
-    background-color: #49B7D1;
-    border-radius: 12px;
+
+.signup-btn {
+	padding: 21px 82px;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 700;
+	color: #FFFFFF;
+	background-color: #49B7D1;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+@media(max-width:1399px) {
+	.signup-wrapper {
+		width: 760px;
+		padding: 50px;
+	}
+
+	.signup-heading-wrapper h5 {
+		font-size: 22px;
+		line-height: 25px;
+		margin-bottom: 40px;
+	}
+
+	.signup-heading-wrapper span {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.signup-heading-wrapper {
+		margin-bottom: 0;
+	}
+
+	.signup-bar {
+		padding: 16px 24px;
+		margin-bottom: 12px;
+	}
+
+	.signup-bar::placeholder {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.signup-btn {
+		padding: 15px 76px;
+		font-size: 16px;
+		line-height: 20px;
+		border-radius: 9px;
+	}
+}
+
+@media(max-width:800px) {
+	.signup-wrapper {
+		width: 560px;
+		padding: 50px;
+	}
+
+	.signup-heading-wrapper h5 {
+		font-size: 19px;
+		line-height: 22px;
+	}
+
+	.signup-heading-wrapper span {
+		font-size: 13px;
+		line-height: 16px;
+	}
+}
+
+@media(max-width:575px) {
+	.signup-wrapper {
+		width: 450px;
+		padding: 20px;
+	}
+
+	.signup-heading-wrapper h5 {
+		font-size: 17px;
+		line-height: 20px;
+	}
+
+	.signup-heading-wrapper span {
+		font-size: 12px;
+		line-height: 15px;
+	}
+}
+
+@media(max-width:470px) {
+	.signup-wrapper {
+		width: 100%;
+		padding: 20px;
+	}
+
+	#signup-form {
+		padding: 60px 20px;
+	}
+}
+
+@media(max-width:458px) {
+	.signup-bar {
+		padding: 12px 19px;
+		margin-bottom: 9px;
+		border-radius: 7px;
+
+	}
+
+	.signup-wrapper {
+		padding-bottom: 50px;
+	}
+
+	.signup-wrapper {
+		position: relative;
+	}
+
+	.signup-heading-wrapper h5 {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.signup-heading-wrapper span {
+		position: absolute;
+		bottom: 15px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 55%;
+	}
+
+	.signup-bar::placeholder {
+		font-size: 12px;
+		line-height: 15px;
+	}
 }

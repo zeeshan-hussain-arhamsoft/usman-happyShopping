@@ -1,20 +1,24 @@
-#hot-Offers{
+#hot-Offers {
 	padding-top: 100px;
 }
-.offers-heading{
+
+.offers-heading {
 	margin-bottom: 60px;
 }
-.offers-heading h3{
+
+.offers-heading h3 {
 	font-size: 42px;
 	line-height: 45px;
 	font-weight: 700;
 	color: #0B0C14;
 }
-@media(max-width:1399px){
-	.offers-heading h3{
+
+@media(max-width:1399px) {
+	.offers-heading h3 {
 		font-size: 32px;
-        line-height: 35px;
+		line-height: 35px;
 	}
+
 	.offers-heading {
 		margin-bottom: 40px;
 	}

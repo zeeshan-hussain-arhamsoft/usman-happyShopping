@@ -56,15 +56,15 @@
 	font-weight: 500;
 	color: #3F5B6C;
 	opacity: 0.9;
+	display: flex;
+    align-items: center;
 }
 
 .track-order-anchor:hover {
 	border-bottom: 1px solid #49B7D1;
 }
 
-.email i {
-	font-size: 22px;
-	color: #49B7D1;
+.company-email-address img {	
 	margin-right: 10px;
 }
 
@@ -164,5 +164,38 @@
 	.track-order-anchor {
 		font-size: 12px;
 		line-height: 15px;
+	}
+}
+@media(max-width:991px){
+	.cashback-email-ul li {
+		margin-right: 6px;
+	}
+	.region-li .btn-success{
+		padding: 0;
+	}
+	.language-li .btn-success{
+		padding: 0;
+	}
+}
+@media(max-width:767px){
+	.track-order-anchor span{
+		display: none;
+	}
+	.company-email-address span{
+		display: none;
+	}
+}
+@media(max-width:575px){
+	.cashback-email-ul{
+		justify-content: space-between;
+	}
+	.cashback{
+		margin: 0 0 10px 0;
+	}
+}
+@media(max-width:334px){
+	.cashback p {
+		font-size: 11px;
+		line-height: 14px;
 	}
 }

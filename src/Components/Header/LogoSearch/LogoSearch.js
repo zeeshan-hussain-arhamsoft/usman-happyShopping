@@ -17,7 +17,7 @@ function LogoSearch() {
 			<section id="logo-search">
 				<Container>
 					<Row className="align-items-center">
-						<Col lg={2} md={2}>
+						<Col lg={2} md={2} sm={4} xs={4}>
 							<div className="header-logo">
 								<strong className="d-inline-block company-logo">
 									<Link to="/" className="d-inline-block">
@@ -26,7 +26,7 @@ function LogoSearch() {
 								</strong>
 							</div>
 						</Col>
-						<Col lg={6} md={6}>
+						<Col lg={6} md={6} sm={8} xs={8}>
 							<div className="search-bar-wrapper">
 								<form action="/" className="search-bar-form">
 									<div className="input-group">

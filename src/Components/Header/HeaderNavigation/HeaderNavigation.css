@@ -67,9 +67,10 @@
 	padding: 0 0 5px 0;
 }
 
-.nav-link:hover{
+.nav-link:hover {
 	color: #FFFFFF;
 }
+
 .nav-item {
 	margin-left: 100px;
 }
@@ -131,8 +132,8 @@
 	}
 
 	.nav-link {
-		font-size: 16px;
-		line-height: 19px;
+		font-size: 14px;
+		line-height: 17px;
 	}
 
 	.nav-item {
@@ -176,6 +177,14 @@
 		top: -34px;
 	}
 
+	.navbar-toggler-icon {
+		background-image: url(../../../Assets/Images/toggle-icon.svg);
+	}
+
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
+
 	.client-dropdown {
 		margin-left: 0;
 	}
@@ -186,5 +195,27 @@
 
 	.phone-col-wrapper {
 		margin-bottom: 35px;
+	}
+	#nav-bar {
+		padding: 10px 0 0 0 ;
+	}
+	.categories-btn {
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.grid-icon {
+		width: 15px;
+		height: 15px;
+		margin-right: 7px;
+	}
+}
+@media(max-width:767px){
+	.navbar-toggler{
+		top: -30px;
+	}
+}
+@media(max-width:575px) {
+	.drop-down-icon {
+		margin-left: 6px;
 	}
 }

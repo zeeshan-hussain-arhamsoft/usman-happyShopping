@@ -51,7 +51,7 @@ function ShippingContent() {
 			<div className='shipping-price'>
 				<Form className='shipping-price-from'>
 					{['radio'].map((type) => (
-						<div key={`inline-${type}`} className="mb-3 shipping-price-radio">
+						<div key={`inline-${type}`} className=" shipping-price-radio">
 							<Form.Check
 								inline
 								label="Standard"
