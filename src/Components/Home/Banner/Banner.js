@@ -26,7 +26,7 @@ function Banner() {
 						</div> */}
 					</div>
 					<Row>
-						<Col lg={4}>
+						<Col lg={4} md={6}>
 							<div className='computers-col-wrapper'>
 								<div className='computer-content'>
 									<span>30% Off</span>
@@ -34,11 +34,11 @@ function Banner() {
 									<Link to="/" className='hvr-bounce-in computer-col-Link'>SHOP NOW</Link>
 								</div>
 								<div className='computer-img'>
-									<img src={Images.computerProduct} />
+									<img src={Images.computerProduct} alt='' />
 								</div>
 							</div>
 						</Col>
-						<Col lg={4}>
+						<Col lg={4} md={6}>
 							<div className='phone-col-wrapper'>
 								<div className='phones-content'>
 									<span>20% Off</span>
@@ -46,7 +46,7 @@ function Banner() {
 									<Link to="/" className='hvr-bounce-in phones-col-Link'>SHOP NOW</Link>
 								</div>
 								<div className='computer-img'>
-									<img src={Images.PhonesProduct} />
+									<img src={Images.PhonesProduct} alt='' />
 								</div>
 							</div>
 						</Col>
@@ -58,7 +58,7 @@ function Banner() {
 									<Link to="/" className='hvr-bounce-in Accessories-col-Link'>SHOP NOW</Link>
 								</div>
 								<div className='Accessories-img'>
-									<img src={Images.Asseccories} />
+									<img src={Images.Asseccories} alt='' />
 								</div>
 							</div>
 						</Col>

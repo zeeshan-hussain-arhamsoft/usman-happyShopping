@@ -21,3 +21,12 @@
         padding-bottom: 50px;
     }
 }
+@media(max-width:991px){
+    .you-see-heading h3{
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .you-see-heading {
+        margin-bottom: 30px;
+    }
+}

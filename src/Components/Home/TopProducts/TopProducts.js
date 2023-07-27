@@ -1,11 +1,9 @@
-import React, { Component } from "react";
-import { Col, Container, Row } from 'react-bootstrap';
+import React from "react";
+import { Container } from 'react-bootstrap';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Images } from "../../../Assets/Assets";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import TopProductsCards from "../TopProductsCards/TopProductsCards";
 import TopProductHeading from "../TopProductHeading/TopProductHeading";
 import "./TopProducts.css";
@@ -41,7 +39,7 @@ function MultipleItems() {
 				}
 			},
 			{
-				breakpoint: 576,
+				breakpoint: 768,
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1

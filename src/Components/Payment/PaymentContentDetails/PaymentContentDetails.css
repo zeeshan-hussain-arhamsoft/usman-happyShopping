@@ -1,231 +1,231 @@
 .payment-details-wrapper {
-    padding-top: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
+	padding-top: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
 }
 
 .payment-details-path {
-    margin-bottom: 46px;
+	margin-bottom: 46px;
 }
 
 .payment-details-path strong {
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 500;
-    color: #0B0C14;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 500;
+	color: #0B0C14;
 }
 
 .shipping-details-confirmation-wrapper {
-    border: 1px solid #CECED0;
-    padding: 20px 30px;
-    margin-bottom: 60px;
+	border: 1px solid #CECED0;
+	padding: 20px 30px;
+	margin-bottom: 60px;
 }
 
 .shipping-details-confirmation {
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid #DFDFDF;
-    margin-bottom: 20px;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #DFDFDF;
+	margin-bottom: 20px;
 }
 
 .shipping-details-confirmation-labels h6 {
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 500;
-    color: #87939E;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 500;
+	color: #87939E;
 }
 
 .shipping-details-cinfirmation-data {
-    position: relative;
+	position: relative;
 }
 
 .shipping-details-cinfirmation-data h6 {
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 500;
-    color: #0B0C14;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 500;
+	color: #0B0C14;
 }
 
 .shipping-details-changing-link {
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 500;
-    color: #1239A5;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 500;
+	color: #1239A5;
 }
 
 .payment-method-heading {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .payment-method-heading h5 {
-    font-size: 28px;
-    line-height: 31px;
-    font-weight: 500;
-    color: #0B0C14;
+	font-size: 28px;
+	line-height: 31px;
+	font-weight: 500;
+	color: #0B0C14;
 }
 
 .payment-method-heading span {
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 500;
-    color: #87939E;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 500;
+	color: #87939E;
 }
 
 .payment-method-radio .form-check-inline {
-    display: block;
-    position: relative;
-    margin-bottom: 20px;
+	display: block;
+	position: relative;
+	margin-bottom: 20px;
 }
 
 .payment-method-radio .form-check-inline::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    background-color: #DFDFDF;
-    bottom: -9px;
-    left: 12px;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background-color: #DFDFDF;
+	bottom: -9px;
+	left: 12px;
 }
 
 .payment-method-radio .form-check-input {
-    width: 28px;
-    height: 28px;
-    border: 2px solid #87939E;
-    margin-right: 18px;
+	width: 28px;
+	height: 28px;
+	border: 2px solid #87939E;
+	margin-right: 18px;
 }
 
 .payment-method-radio .form-check-input:checked {
-    background-color: #F3283D;
-    border: none;
+	background-color: #F3283D;
+	border: none;
 }
 
 .payment-method-radio .form-check-input:checked .form-check-label {
-    color: #0B0C14;
+	color: #0B0C14;
 }
 
 .payment-method-radio .form-check-input:focus {
-    border-color: transparent;
-    box-shadow: none;
+	border-color: transparent;
+	box-shadow: none;
 }
 
 .complete-order {
-    text-decoration: none;
-    display: inline-block;
-    padding: 21px 40px;
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 700;
-    color: #FFFFFF;
-    background-color: #49B7D1;
-    border-radius: 12px;
-    margin-right: 40px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 21px 40px;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 700;
+	color: #FFFFFF;
+	background-color: #49B7D1;
+	border-radius: 12px;
+	margin-right: 40px;
 }
 
 .return-to-shipping {
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 500;
-    color: #0B0C14;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 500;
+	color: #0B0C14;
 }
 
 @media(max-width:1399px) {
-    .payment-details-wrapper {
-        padding: 60px 60px 60px 0;
-    }
+	.payment-details-wrapper {
+		padding: 60px 60px 60px 0;
+	}
 
-    .payment-details-path strong {
-        font-size: 16px;
-        line-height: 19px;
-    }
+	.payment-details-path strong {
+		font-size: 16px;
+		line-height: 19px;
+	}
 
-    .shipping-details-confirmation-labels h6 {
-        font-size: 14px;
-        line-height: 17px;
-    }
+	.shipping-details-confirmation-labels h6 {
+		font-size: 14px;
+		line-height: 17px;
+	}
 
-    .shipping-details-cinfirmation-data h6 {
-        font-size: 14px;
-        line-height: 17px;
-    }
+	.shipping-details-cinfirmation-data h6 {
+		font-size: 14px;
+		line-height: 17px;
+	}
 
-    .shipping-details-changing-link {
-        font-size: 14px;
-        line-height: 17px;
-    }
+	.shipping-details-changing-link {
+		font-size: 14px;
+		line-height: 17px;
+	}
 
-    .shipping-details-confirmation-wrapper {
-        margin-bottom: 40px;
-    }
+	.shipping-details-confirmation-wrapper {
+		margin-bottom: 40px;
+	}
 
-    .payment-method-heading h5 {
-        font-size: 23px;
-        line-height: 27px;
-    }
+	.payment-method-heading h5 {
+		font-size: 23px;
+		line-height: 27px;
+	}
 
-    .payment-method-heading span {
-        font-size: 15px;
-        line-height: 18px;
-    }
+	.payment-method-heading span {
+		font-size: 15px;
+		line-height: 18px;
+	}
 
-    .payment-method-radio .form-check-input {
-        width: 20px;
-        height: 20px;
-        margin-right: 10px;
-    }
+	.payment-method-radio .form-check-input {
+		width: 20px;
+		height: 20px;
+		margin-right: 10px;
+	}
 
-    .complete-order {
-        padding: 15px 24px;
-        font-size: 16px;
-        line-height: 19px;
-        margin-right: 15px;
-    }
+	.complete-order {
+		padding: 15px 24px;
+		font-size: 16px;
+		line-height: 19px;
+		margin-right: 15px;
+	}
 
-    .return-to-shipping {
-        font-size: 16px;
-        line-height: 19px;
-    }
+	.return-to-shipping {
+		font-size: 16px;
+		line-height: 19px;
+	}
 }
 
 @media(max-width:575px) {
-    .payment-details-wrapper {
-        padding: 40px 15px 60px 15px;
-    }
+	.payment-details-wrapper {
+		padding: 40px 15px 60px 15px;
+	}
 
-    .payment-details-path strong {
-        font-size: 12px;
-        line-height: 15px;
-    }
+	.payment-details-path strong {
+		font-size: 12px;
+		line-height: 15px;
+	}
 
-    .payment-method-heading h5 {
-        font-size: 19px;
-        line-height: 22px;
-    }
+	.payment-method-heading h5 {
+		font-size: 19px;
+		line-height: 22px;
+	}
 
-    .payment-method-heading span {
-        font-size: 13px;
-        line-height: 16px;
-    }
+	.payment-method-heading span {
+		font-size: 13px;
+		line-height: 16px;
+	}
 }
 
 @media(max-width:373px) {
-    .complete-order-btns-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+	.complete-order-btns-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
-    .complete-order {
-        padding: 12px 18px;
-        font-size: 14px;
-        line-height: 17px;
-        margin-bottom: 10px;
-        margin-right: 0;
-    }
+	.complete-order {
+		padding: 12px 18px;
+		font-size: 14px;
+		line-height: 17px;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
 
-    .return-to-shipping {
-        font-size: 12px;
-        line-height: 15px;
-    }
+	.return-to-shipping {
+		font-size: 12px;
+		line-height: 15px;
+	}
 }

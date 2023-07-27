@@ -5,9 +5,7 @@ import { Images } from '../../../Assets/Assets';
 import { Link } from 'react-router-dom';
 import "./ShoppingCartContent.css";
 function ShoppingCartContent() {
-
 	const [count, setCount] = useState(0);
-
 	const handleIncrement = () => {
 		setCount((prevCount) => prevCount + 1);
 	};
@@ -15,7 +13,6 @@ function ShoppingCartContent() {
 	const handleDecrement = () => {
 		setCount((prevCount) => prevCount > 0 ? prevCount - 1 : 0);
 	};
-
 	return (
 		<div className='wrapper'>
 			<section id='shopping-cart-content'>
@@ -30,7 +27,7 @@ function ShoppingCartContent() {
 				<Container>
 					<div className='shopping-cart-items-wrapper'>
 						<Row>
-							<Col lg={6}>
+							<Col lg={6} md={6}>
 								<div className='shopping-cart-items'>
 									<h5>Products</h5>
 									<div className='shopping-cart-items-details'>
@@ -44,7 +41,7 @@ function ShoppingCartContent() {
 								</div>
 
 							</Col>
-							<Col lg={2}>
+							<Col lg={2} md={2} xs={4}>
 								<div className='shopping-cart-items-counter'>
 									<h5>Quantity</h5>
 									<div className='count-state'>
@@ -54,13 +51,13 @@ function ShoppingCartContent() {
 									</div>
 								</div>
 							</Col>
-							<Col lg={2}>
+							<Col lg={2} md={2} xs={4}>
 								<div className='shopping-cart-items-price'>
 									<h5>Price</h5>
 									<strong>$1,799</strong>
 								</div>
 							</Col>
-							<Col lg={2}>
+							<Col lg={2} md={2} xs={4}>
 								<div className='shopping-cart-items-price'>
 									<h5>Total</h5>
 									<strong>$1,799</strong>

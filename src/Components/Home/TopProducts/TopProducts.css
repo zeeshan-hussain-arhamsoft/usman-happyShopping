@@ -99,3 +99,47 @@
         margin-bottom: 15px;
     }
 }
+
+@media(max-width:991px) {
+    .top-product-heading h2 {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .top-product-heading {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:575px) {
+    .top-product-heading h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .top-product-heading {
+        margin-bottom: 20px;
+    }
+
+    .top-items1 {
+        width: 170px;
+        height: 186px;
+    }
+
+    .top-items-wrapper span {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .top-items-wrapper h6 {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+    .top-items-wrapper strong{
+        font-size: 16px;
+		line-height: 19px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+    }
+}

@@ -332,3 +332,240 @@
 	}
 
 }
+
+@media(max-width:991px) {
+	.googleMini-content {
+		left: 0;
+		width: 100%;
+		bottom: 126px;
+	}
+
+	.homeTheater-content {
+		left: 0;
+		width: 100%;
+		top: 44px;
+	}
+
+	.miStores-content {
+		left: 0;
+		width: 100%;
+		bottom: 107px;
+	}
+
+	.hot-offer-heading h3 {
+		font-size: 24px;
+		line-height: 27px;
+	}
+	.VR-content {
+		top: 33px;
+		left: 19px;
+	}
+	.VR-content span {
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.VR-content h3 {
+		font-size: 20px;
+		line-height: 23px;
+		margin-bottom: 10px;
+	}
+	.VR-link {
+		font-size: 12px;
+		line-height: 15px;
+		padding: 10px 17px;
+		border-radius: 6px;
+	}
+	.googleMini-content{
+		bottom: 61px;
+	}
+	.googleMini-content h3 {
+		font-size: 23px;
+		line-height: 27px;
+	}
+	.googleMini-content span {
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.homeTheater-content h3{
+		font-size: 23px;
+		line-height: 27px;
+	}
+	.homeTheater-content span{
+		font-size: 13px;
+		line-height: 16px;
+		margin-bottom: 10px;
+	}
+	.homeTheater-link {
+		font-size: 13px;
+		line-height: 16px;
+		padding: 10px 15px;
+		border-radius: 8px;
+	}
+}
+
+@media(max-width:575px) {
+	.hot-offer-heading h3 {
+		font-size: 20px;
+		line-height: 23px;
+	}
+
+	.hot-offer-heading {
+		margin-bottom: 20px;
+	}
+
+	.VR-content span {
+		font-size: 14px;
+		line-height: 17px;
+		margin-bottom: 5px;
+	}
+
+	.VR-content h3 {
+		font-size: 20px;
+		line-height: 23px;
+		margin-bottom: 10px;
+	}
+
+	.VR-link {
+		font-size: 13px;
+		line-height: 16px;
+		padding: 10px 15px;
+		border-radius: 6px;
+	}
+
+	.googleMini-content h3 {
+		font-size: 24px;
+		line-height: 27px;
+	}
+
+	.googleMini-content span {
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.googleMini-content {
+		bottom: 54px;
+	}
+
+	.homeTheater-content h3 {
+		font-size: 24px;
+		line-height: 27px;
+	}
+
+	.homeTheater-content span {
+		font-size: 13px;
+		line-height: 16px;
+		margin-bottom: 20px;
+	}
+
+	.homeTheater-link {
+		font-size: 14px;
+		line-height: 17px;
+		padding: 9px 20px;
+		border-radius: 7px;
+	}
+
+	.miStores-content h3 {
+		font-size: 24px;
+		line-height: 27px;
+	}
+
+	.miStores-content span {
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.miStores-content {
+		bottom: 67px;
+	}
+}
+
+@media(max-width:450px) {
+	.VR-content {
+		top: 40px;
+		left: 40px;
+	}
+
+	.VR-content span {
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.VR-content h3 {
+		font-size: 18px;
+		line-height: 21px;
+		margin-bottom: 7px;
+	}
+
+	.VR-link {
+		padding: 8px 11px;
+	}
+}
+
+@media(max-width:350px) {
+	.VR-content {
+		top: 22px;
+		left: 18px;
+	}
+
+	.VR-content span {
+		margin-bottom: 2px;
+	}
+
+	.VR-content span {
+		font-size: 11px;
+		line-height: 14px;
+	}
+
+	.VR-content h3 {
+		font-size: 14px;
+		line-height: 17px;
+		margin-bottom: 5px;
+	}
+	.VR-link {
+		padding: 7px 8px;
+		font-size: 11px;
+		line-height: 14px;
+	}
+	.googleMini-content h3 {
+		font-size: 19px;
+		line-height: 22px;
+	}
+	.googleMini-content span {
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.googleMini-content {
+		bottom: 32px;
+	}
+	.homeTheater-content h3{
+		font-size: 19px;
+		line-height: 22px;
+		margin-bottom: 3px;
+	}
+	.homeTheater-content{
+		top: 30px;
+	}
+	.homeTheater-content span {
+		font-size: 12px;
+		line-height: 15px;
+		margin-bottom: 10px;
+	}
+	.homeTheater-link {
+		font-size: 11px;
+		line-height: 14px;
+		padding: 7px 13px;
+		border-radius: 5px;
+	}
+	.miStores-content h3{
+		font-size: 19px;
+		line-height: 22px;
+		margin-bottom: 3px;
+	}
+	.miStores-content span {
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.miStores-content {
+		bottom: 35px;
+	}
+}

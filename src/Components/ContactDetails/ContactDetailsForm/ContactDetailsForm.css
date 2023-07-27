@@ -157,8 +157,8 @@
 @media(max-width:1399px) {
     .contact-details-form-wrapper {
         padding-top: 60px;
-    } 
-    
+    }
+
     #contact-details {
         padding-bottom: 21px;
     }
@@ -242,4 +242,63 @@
         font-size: 15px;
         line-height: 18px;
     }
+}
+
+@media(max-width:991px) {
+    .contact-information strong {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .contact-details-heading h3 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .contact-information-bar-wrapper .contact-information-bar::placeholder {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .contact-information-bar-wrapper .form-check-label {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .contact-info {
+        margin-bottom: 10px;
+    }
+
+    .shipping-address-wrapper h3 {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 10px;
+    }
+
+    .shipping-address-wrapper .form-check-label {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .shipping-details-checkbox {
+        margin-bottom: 25px;
+    }
+
+    .shipping-address-information-bar::placeholder{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .shipping-address-btn {
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+    .return-to-cart {
+        font-size: 13px;
+        line-height: 17px;
+        margin-left: 20px;
+    }
+    .contact-details-form-wrapper{
+        padding-bottom: 60px;
+    }
+
 }

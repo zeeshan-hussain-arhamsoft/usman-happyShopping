@@ -1,11 +1,10 @@
-import React, { useState, Component, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import CategoriesSliderCards from "../CategoriesSliderCards/CategoriesSliderCards";
 import { Images } from "../../../Assets/Assets";
-import { Row } from "react-bootstrap";
 
 function SimpleSlider() {
 
@@ -46,7 +45,7 @@ function SimpleSlider() {
 			  }
 			},
 			{
-			  breakpoint: 576,
+			  breakpoint: 768,
 			  settings: {
 				slidesToShow: 1,
 				slidesToScroll: 1

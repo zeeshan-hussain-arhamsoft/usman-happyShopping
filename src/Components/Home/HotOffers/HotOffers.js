@@ -13,7 +13,7 @@ function HotOffers() {
 						<h3>Hot Offers</h3>
 					</div>
 					<Row>
-						<Col lg={6}>
+						<Col lg={6} md={6}>
 							<div className='hot-offer-col-wrapper'>
 								<div className='VR-img'>
 									<img src={Images.virtualReality} alt='' />
@@ -27,7 +27,7 @@ function HotOffers() {
 								</div>
 							</div>
 						</Col>
-						<Col lg={6}>
+						<Col lg={6}  md={6}>
 							<div className='hot-offer-col-wrapper'>
 								<div className='VR-img'>
 									<img src={Images.brandedHandfree} alt='' />
@@ -41,7 +41,7 @@ function HotOffers() {
 								</div>
 							</div>
 						</Col>
-						<Col lg={4}>
+						<Col lg={4} md={6}>
 							<div className='hot-offer-col-wrapper'>
 								<div className='VR-img'>
 									<img src={Images.googleMini} alt='' />
@@ -52,7 +52,7 @@ function HotOffers() {
 								</div>
 							</div>
 						</Col>
-						<Col lg={4}>
+						<Col lg={4} md={6}>
 							<div className='hot-offer-col-wrapper'>
 								<div className='VR-img'>
 									<img src={Images.homeTheater} alt='' />

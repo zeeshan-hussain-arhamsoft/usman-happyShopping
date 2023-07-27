@@ -7,13 +7,13 @@ function KeepInTouch() {
 			<section id='keep-in-touch'>
 				<Container>
 					<Row>
-						<Col lg={6}>
+						<Col lg={6} md={6}>
 							<div className='keep-in-touch-content-col'>
 								<h3>Keep In Touch For Latest Updates</h3>
 								<span>Save up to 45% off on your next order</span>
 							</div>
 						</Col>
-						<Col lg={6}>
+						<Col lg={6} md={6}>
 							<div className='keep-in-touch-subscribe-bar'>
 								<form action="/" className="keep-in-touch-bar-form">
 									<div className="input-group">

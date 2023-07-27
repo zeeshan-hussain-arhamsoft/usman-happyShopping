@@ -180,13 +180,34 @@
 		line-height: 20px;
 	}
 
-	.shopping-item-total-price span {		
+	.shopping-item-total-price span {
 		font-size: 12px;
 		line-height: 15px;
 	}
 
 	.shipping-content-wrapper {
 		padding-bottom: 30px;
+	}
+
+	.continue-payment-btn-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.continue-payment-btn {
+		font-size: 12px;
+		line-height: 15px;
+		padding: 11px 14px;
+		border-radius: 8px;
+		margin-bottom: 8px;
+	}
+
+	.return-to-information-btn {
+		font-size: 13px;
+		line-height: 16px;
+		margin-left: 0;
+		display: block;
 	}
 }
 
