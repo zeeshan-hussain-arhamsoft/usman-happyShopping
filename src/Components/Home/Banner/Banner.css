@@ -137,9 +137,6 @@
 	transition: all ease-in-out 0.7s;
 }
 
-/* .computers-col-wrapper:hover .computer-img{
-    width: 310px;
-} */
 .computer-img img {
 	width: 100%;
 }

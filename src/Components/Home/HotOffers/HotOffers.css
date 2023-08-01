@@ -131,7 +131,9 @@
 .homeTheater-content {
 	position: absolute;
 	top: 40px;
-	left: 60px;
+	left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
 }
 
 .homeTheater-content h3 {
@@ -254,21 +256,21 @@
 	}
 
 	.VR-content span {
-		font-size: 18px;
-		line-height: 21px;
+		font-size: 17px;
+		line-height: 20px;
 		margin-bottom: 6px;
 	}
 
 	.VR-content h3 {
-		font-size: 30px;
-		line-height: 33px;
-		margin-bottom: 20px;
+		font-size: 28px;
+		line-height: 31px;
+		margin-bottom: 30px;
 	}
 
 	.VR-link {
-		font-size: 16px;
-		line-height: 19px;
-		padding: 16px 31px;
+		font-size: 14px;
+		line-height: 17px;
+		padding: 13px 31px;
 		border-radius: 12px;
 	}
 
@@ -293,13 +295,13 @@
 	}
 
 	.homeTheater-content h3 {
-		font-size: 32px;
-		line-height: 35px;
+		font-size: 30px;
+		line-height: 33px;
 	}
 
 	.homeTheater-content span {
-		font-size: 18px;
-		line-height: 21px;
+		font-size: 17px;
+		line-height: 20px;
 	}
 
 	.homeTheater-link {
@@ -312,7 +314,6 @@
 	.homeTheater-content {
 		position: absolute;
 		top: 30px;
-		left: 38px;
 	}
 
 	.miStores-content h3 {

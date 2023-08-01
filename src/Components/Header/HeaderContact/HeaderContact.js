@@ -3,7 +3,6 @@ import { Container, Row, Col, Dropdown } from 'react-bootstrap';
 import { Images } from '../../../Assets/Assets';
 import "./HeaderContact.css";
 import { Link } from 'react-router-dom';
-
 function HeaderContact() {
 	return (
 		<div id="track-order-cashback">
@@ -15,14 +14,13 @@ function HeaderContact() {
 								<div className="tag-icon">
 									<img src={Images.TagIcon} alt="" />
 								</div>
-								<p>Get upto 25% cashback on your first order</p>
+								<span>Get upto 25% cashback on your first order</span>
 							</div>
 						</Col>
 						<Col lg={6} md={7} sm={5}>
 							<ul className="cashback-email-ul">
 								<li>
 									<div className="track-order">
-
 										<Link to="/" className="track-order-anchor">
 											<div className="truck-icon">
 												<img src={Images.truckIcon} alt="" />
@@ -65,7 +63,7 @@ function HeaderContact() {
 											<Dropdown.Item to="#/action-2">Urdu</Dropdown.Item>
 											<Dropdown.Item to="#/action-3">Spanish</Dropdown.Item>
 										</Dropdown.Menu>
-									</Dropdown>							
+									</Dropdown>
 								</li>
 							</ul>
 						</Col>

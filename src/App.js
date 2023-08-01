@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Accessories from './Components/Accessories/Accessories';
-// import OrderNumDetails from './Components/OrderNumDetails/OrderNumDetails';
 import OrdersDetails from './Components/OrdersDetails/OrdersDetails';
 import AddToCartItems from './Components/AddToCartItems/AddToCartItems';
 import ShoppingCart from './Components/ShoppingCart/ShoppingCart';
@@ -16,17 +15,16 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path='/' element={<Home/>} />
-				<Route path='/Accessories' element={<Accessories/>}/>
-				<Route path='/AddToCartItems' element={<AddToCartItems/>}/>
-				<Route path='/ShoppingCart' element={<ShoppingCart/>} />
-				<Route path='/OrdersDetails' element={<OrdersDetails/>}/>
-				{/* <Route path='/OrderNumDetails' element={<OrderNumDetails/>} /> */}
-				<Route path='/ContactDetails' element={<ContactDetails/>} />
-				<Route path='/Payment' element={<Payment/>} />
-				<Route path='/Shipping' 	element={<Shipping/>} />
-				<Route path='/Login' element={<Login/>}/>
-				<Route path='/Signup' element={<Signup/>}/>
+				<Route path='/' element={<Home />} />
+				<Route path='/accessories' element={<Accessories />} />
+				<Route path='/addToCartItems' element={<AddToCartItems />} />
+				<Route path='/shoppingCart' element={<ShoppingCart />} />
+				<Route path='/ordersDetails' element={<OrdersDetails />} />
+				<Route path='/contactDetails' element={<ContactDetails />} />
+				<Route path='/payment' element={<Payment />} />
+				<Route path='/shipping' element={<Shipping />} />
+				<Route path='/login' element={<Login />} />
+				<Route path='/signup' element={<Signup />} />
 			</Routes>
 		</BrowserRouter>
 	);
