@@ -65,6 +65,10 @@
 	font-size: 27px;
 }
 
+.wishlist {
+	cursor: pointer;
+}
+
 .mycart {
 	display: flex;
 	align-items: center;

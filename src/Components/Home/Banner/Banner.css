@@ -359,22 +359,27 @@
 		padding: 50px 0 50px 20px;
 		flex: 1;
 	}
-	.Accessories-img{
+
+	.Accessories-img {
 		width: 133px;
 	}
-	.Accessories-col-wrapper{
+
+	.Accessories-col-wrapper {
 		align-items: center;
 	}
-	.Accessories-content span{
+
+	.Accessories-content span {
 		font-size: 13px;
 		line-height: 16px;
 	}
-	.Accessories-content h3{
+
+	.Accessories-content h3 {
 		font-size: 20px;
 		line-height: 23px;
 		margin-bottom: 12px;
 	}
-	.Accessories-col-Link{
+
+	.Accessories-col-Link {
 		font-size: 12px;
 		line-height: 15px;
 		padding: 7px 14px;

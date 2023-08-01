@@ -1,24 +1,29 @@
-.accessories-banner-wrapper{
-    position: relative;
+.accessories-banner-wrapper {
+	position: relative;
 }
-.accessories-banner-img{
-    width: 100%;
+
+.accessories-banner-img {
+	width: 100%;
 }
-.accessories-banner-img img{
-    width: 100%;
+
+.accessories-banner-img img {
+	width: 100%;
 }
-.accessories-banner-content{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 100px;
+
+.accessories-banner-content {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 100px;
 }
-.accessories-banner-content h3{
-    font-size: 60px;
-    line-height: 72px;
-    font-weight: 600;
-    color: #FFFFFF;
+
+.accessories-banner-content h3 {
+	font-size: 60px;
+	line-height: 72px;
+	font-weight: 600;
+	color: #FFFFFF;
 }
-.accessories-banner-content span{
-    display: block;
+
+.accessories-banner-content span {
+	display: block;
 }

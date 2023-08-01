@@ -196,28 +196,34 @@
 	.phone-col-wrapper {
 		margin-bottom: 35px;
 	}
+
 	#nav-bar {
-		padding: 10px 0 0 0 ;
+		padding: 10px 0 0 0;
 	}
+
 	.categories-btn {
 		font-size: 12px;
 		line-height: 15px;
 	}
+
 	.grid-icon {
 		width: 15px;
 		height: 15px;
 		margin-right: 7px;
 	}
-	.nav-item{
+
+	.nav-item {
 		margin: 0;
 		padding: 4px 0;
 	}
 }
-@media(max-width:767px){
-	.navbar-toggler{
+
+@media(max-width:767px) {
+	.navbar-toggler {
 		top: -30px;
 	}
 }
+
 @media(max-width:575px) {
 	.drop-down-icon {
 		margin-left: 6px;

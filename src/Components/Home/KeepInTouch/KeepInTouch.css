@@ -27,6 +27,7 @@
 	border-radius: 12px;
 	background-color: rgb(0, 0, 0, 0.2);
 	border: 1px solid transparent;
+	color: #FFFFFF;
 }
 
 .keep-in-touch-subscribe-bar .keep-in-touch-search-bar::placeholder {
@@ -34,6 +35,11 @@
 	line-height: 21px;
 	font-weight: 500;
 	color: #FFFFFF;
+}
+
+.keep-in-touch-subscribe-bar .keep-in-touch-search-bar:focus {
+	box-shadow: none;
+	z-index: 0;
 }
 
 .keep-in-touch-search-btn {
@@ -137,6 +143,10 @@
 	.keep-in-touch-subscribe-bar .keep-in-touch-search-bar::placeholder {
 		font-size: 14px;
 		line-height: 17px;
+	}
+
+	.keep-in-touch-search-button {
+		top: 1px;
 	}
 
 	.keep-in-touch-search-btn {

@@ -1,4 +1,4 @@
-.people-lovedIt{
+.people-lovedIt {
 	padding-top: 100px;
 }
 
@@ -23,20 +23,24 @@
 		margin-bottom: 40px;
 	}
 }
-@media(max-width:991px){
-	.offers-heading h3{
+
+@media(max-width:991px) {
+	.offers-heading h3 {
 		font-size: 24px;
 		line-height: 27px;
 	}
 }
-@media(max-width:575px){
-	.offers-heading h3{
+
+@media(max-width:575px) {
+	.offers-heading h3 {
 		font-size: 20px;
 		line-height: 23px;
 	}
+
 	.offers-heading {
 		margin-bottom: 20px;
 	}
+
 	#hot-Offers {
 		padding-top: 60px;
 	}

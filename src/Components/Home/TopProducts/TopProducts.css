@@ -1,145 +1,146 @@
 #top-products {
-    padding-top: 100px;
+	padding-top: 100px;
 }
 
 .top-product-heading {
-    margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 
 .top-product-heading h2 {
-    font-size: 42px;
-    line-height: 45px;
-    font-weight: 700;
-    color: #0B0C14;
+	font-size: 42px;
+	line-height: 45px;
+	font-weight: 700;
+	color: #0B0C14;
 }
 
 .top-items1 {
-    width: 300px;
-    margin: 0 auto;
-    height: 336px;
+	width: 300px;
+	margin: 0 auto;
+	height: 336px;
 }
 
 .top-items1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
 }
 
 .top-items-wrapper span {
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 500;
-    color: #87939E;
-    display: inline-block;
-    margin-bottom: 5px;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 500;
+	color: #87939E;
+	display: inline-block;
+	margin-bottom: 5px;
 }
 
 .top-items-wrapper h6 {
-    font-size: 22px;
-    line-height: 25px;
-    font-weight: 500;
-    color: #3D5A6B;
-    margin-bottom: 22px;
+	font-size: 22px;
+	line-height: 25px;
+	font-weight: 500;
+	color: #3D5A6B;
+	margin-bottom: 22px;
 }
 
 .top-items-wrapper strong {
-    font-size: 28px;
-    line-height: 31px;
-    font-weight: 700;
-    color: #1239A5;
-    margin-right: 20px;
-    margin-bottom: 44px;
-    display: inline-block;
+	font-size: 28px;
+	line-height: 31px;
+	font-weight: 700;
+	color: #1239A5;
+	margin-right: 20px;
+	margin-bottom: 44px;
+	display: inline-block;
 }
 
 .old-price {
-    display: inline-block;
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 500;
-    color: #87939E;
-    text-decoration: line-through;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 500;
+	color: #87939E;
+	text-decoration: line-through;
 }
 
 .top-product-slider-wrapper .slick-prev {
-    color: #0B0C14;
-    width: 50px;
-    height: auto;
+	color: #0B0C14;
+	width: 50px;
+	height: auto;
 
 }
 
 .top-product-slider-wrapper .slick-prev:before {
-    /* font-family: "Font Awesome 5 solids"; content: "\f061"; */
-    background-image: url(../../../Assets/Images/left\ .svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
+	/* font-family: "Font Awesome 5 solids"; content: "\f061"; */
+	background-image: url(../../../Assets/Images/left\ .svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
 }
 
 @media(max-width:1399px) {
-    #top-products {
-        padding-bottom: 0px;
-    }
+	#top-products {
+		padding-bottom: 0px;
+	}
 
-    .top-product-heading h2 {
-        font-size: 32px;
-        line-height: 35px;
-    }
+	.top-product-heading h2 {
+		font-size: 32px;
+		line-height: 35px;
+	}
 
-    .top-items-wrapper h6 {
-        margin-bottom: 10px;
-        font-size: 18px;
-        line-height: 21px;
-    }
+	.top-items-wrapper h6 {
+		margin-bottom: 10px;
+		font-size: 18px;
+		line-height: 21px;
+	}
 
-    .top-items-wrapper strong {
-        font-size: 20px;
-        line-height: 23px;
-        margin-right: 10px;
-        margin-bottom: 15px;
-    }
+	.top-items-wrapper strong {
+		font-size: 20px;
+		line-height: 23px;
+		margin-right: 10px;
+		margin-bottom: 15px;
+	}
 }
 
 @media(max-width:991px) {
-    .top-product-heading h2 {
-        font-size: 24px;
-        line-height: 27px;
-    }
+	.top-product-heading h2 {
+		font-size: 24px;
+		line-height: 27px;
+	}
 
-    .top-product-heading {
-        margin-bottom: 30px;
-    }
+	.top-product-heading {
+		margin-bottom: 30px;
+	}
 }
 
 @media(max-width:575px) {
-    .top-product-heading h2 {
-        font-size: 20px;
-        line-height: 24px;
-    }
+	.top-product-heading h2 {
+		font-size: 20px;
+		line-height: 24px;
+	}
 
-    .top-product-heading {
-        margin-bottom: 20px;
-    }
+	.top-product-heading {
+		margin-bottom: 20px;
+	}
 
-    .top-items1 {
-        width: 170px;
-        height: 186px;
-    }
+	.top-items1 {
+		width: 170px;
+		height: 186px;
+	}
 
-    .top-items-wrapper span {
-        font-size: 13px;
-        line-height: 16px;
-    }
+	.top-items-wrapper span {
+		font-size: 13px;
+		line-height: 16px;
+	}
 
-    .top-items-wrapper h6 {
-        font-size: 15px;
-        line-height: 18px;
-        margin-bottom: 5px;
-    }
-    .top-items-wrapper strong{
-        font-size: 16px;
+	.top-items-wrapper h6 {
+		font-size: 15px;
+		line-height: 18px;
+		margin-bottom: 5px;
+	}
+
+	.top-items-wrapper strong {
+		font-size: 16px;
 		line-height: 19px;
 		margin-right: 5px;
 		margin-bottom: 5px;
-    }
+	}
 }
