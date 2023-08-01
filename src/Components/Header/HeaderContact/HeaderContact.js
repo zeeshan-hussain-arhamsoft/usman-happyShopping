@@ -14,7 +14,7 @@ function HeaderContact() {
 								<div className="tag-icon">
 									<img src={Images.TagIcon} alt="" />
 								</div>
-								<span>Get upto 25% cashback on your first order</span>
+								<p>Get upto 25% cashback on your first order</p>
 							</div>
 						</Col>
 						<Col lg={6} md={7} sm={5}>

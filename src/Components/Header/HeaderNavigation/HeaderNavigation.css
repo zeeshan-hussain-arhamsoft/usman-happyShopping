@@ -64,7 +64,12 @@
 	line-height: 21px;
 	font-weight: 500;
 	color: #FFFFFF;
-	padding: 0 0 5px 0;
+	padding: 0 0 0 0;
+	z-index: 2;
+}
+
+.nav-link:focus {
+	color: #FFFFFF;
 }
 
 .nav-link:hover {
@@ -119,7 +124,7 @@
 
 @media(max-width:1399px) {
 	#nav-bar {
-		padding: 16px 0;
+		padding: 13px 0;
 	}
 
 	.drop-down-icon {
@@ -134,6 +139,7 @@
 	.nav-link {
 		font-size: 14px;
 		line-height: 17px;
+		padding: 0;
 	}
 
 	.nav-item {

@@ -12,7 +12,6 @@ function HeaderNavigation() {
 			<Container>
 				<Row className='align-items-center'>
 					<Col lg={2}>
-
 						<div className="categories">
 							<Dropdown className='client-dropdown'>
 								<Dropdown.Toggle variant="success" id="dropdown-basic" className='language-dropdown-button d-flex align-items-center categories-btn'>
