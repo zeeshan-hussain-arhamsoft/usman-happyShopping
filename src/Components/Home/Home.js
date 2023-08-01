@@ -9,12 +9,16 @@ import PeopleLoveIt from './PeopleLoveIt/PeopleLoveIt';
 import HotOffers from './HotOffers/HotOffers';
 import SimpleSlider from './YouCanAlsoSee/YouCanAlsoSee';
 import KeepInTouch from './KeepInTouch/KeepInTouch';
+import ProductCategory from './ProductCategory/ProductCategory';
+import CategoriesSlider from "./categoriesSlider/categoriesSlider";
 function Home() {
   return (
-    <div>
+    <div className='wrapper'>
         <Header/>
         <Banner/>
+        <ProductCategory/>
         <HottestCategories/>
+        <CategoriesSlider/>
         <TopProducts/>
         <SmartHome/>
         <PeopleLoveIt/>

@@ -124,7 +124,7 @@ function PaymentContentDetails() {
 				</div>
 			</div>
 			<div className="complete-order-btns-wrapper">
-				<Link to='/' className='complete-order'>Order Complete</Link>
+				<Link to='/' className='hvr-bounce-in complete-order'>Order Complete</Link>
 				<Link to='/' className='return-to-shipping'>Return to shipping</Link>
 			</div>
 		</div>

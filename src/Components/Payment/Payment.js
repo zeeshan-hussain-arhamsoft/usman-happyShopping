@@ -4,13 +4,13 @@ import PaymentContent from './PaymentContent/PaymentContent';
 import Footer from '../Footer/Footer';
 
 function Payment() {
-  return (
-	<>
-		<Header/>
-		<PaymentContent/>
-		<Footer/>
-	</>
-  )
+	return (
+		<div className='wrapper'>
+			<Header />
+			<PaymentContent />
+			<Footer />
+		</div>
+	)
 }
 
 export default Payment;

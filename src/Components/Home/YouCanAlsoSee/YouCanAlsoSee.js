@@ -48,240 +48,238 @@ function YouCanAlsoSee() {
 		]
 	};
 	return (
-		<div className='wrapper'>
-			<section id='youcansee'>
-				<Container>
-					<div className='you-see-heading'>
-						<h3>Also You Can See</h3>
-					</div>
-					<div className=''>
-						<Slider {...settings_3}>
-							<div>
-								<div className="categories-slier-items">
-									<div className="add-cart">
-										<div className='itmes-cart'>
-											<div className='discount'>
-												<span>25% off</span>
-											</div>
-											<div>
-												<img src={Images.categoriesHeart} alt='' />
-											</div>
+		<section id='youcansee'>
+			<Container>
+				<div className='you-see-heading'>
+					<h3>Also You Can See</h3>
+				</div>
+				<div className=''>
+					<Slider {...settings_3}>
+						<div>
+							<div className="categories-slier-items">
+								<div className="add-cart">
+									<div className='itmes-cart'>
+										<div className='discount'>
+											<span>25% off</span>
 										</div>
-										<TopProductsCards categoriesItems={Images.youSee1} companyName="Apple" itemsSpecs=" iMac 27 Retina 5K Display" itemprice="$1,799" oldPrice="$1,899" />
+										<div>
+											<img src={Images.categoriesHeart} alt='' />
+										</div>
+									</div>
+									<TopProductsCards categoriesItems={Images.youSee1} companyName="Apple" itemsSpecs=" iMac 27 Retina 5K Display" itemprice="$1,799" oldPrice="$1,899" />
 
-										<div className="countercart">
-											<div className="counter">
-												<div className="counter-reduce">
-													<span>-</span>
-												</div>
-												<div className="counter-num">
-													<span>01</span>
-												</div>
-												<div className="counter-increase">
-													<span>+</span>
-												</div>
+									<div className="countercart">
+										<div className="counter">
+											<div className="counter-reduce">
+												<span>-</span>
 											</div>
-											<div className="carticon">
-												<img src={Images.cartIcon} alt="" />
+											<div className="counter-num">
+												<span>01</span>
 											</div>
+											<div className="counter-increase">
+												<span>+</span>
+											</div>
+										</div>
+										<div className="carticon">
+											<img src={Images.cartIcon} alt="" />
 										</div>
 									</div>
 								</div>
 							</div>
-							<div>
-								<div className="categories-slier-items">
-									<div className="add-cart">
-										<div className='itmes-cart'>
-											<div className='discount'>
-												<span>25% off</span>
-											</div>
-											<div>
-												<img src={Images.categoriesHeart} alt='' />
-											</div>
+						</div>
+						<div>
+							<div className="categories-slier-items">
+								<div className="add-cart">
+									<div className='itmes-cart'>
+										<div className='discount'>
+											<span>25% off</span>
 										</div>
-										<TopProductsCards categoriesItems={Images.youSee2} companyName="Dell" itemsSpecs=" Dell XPS 15 9575 (X360)" itemprice="$1724" />
+										<div>
+											<img src={Images.categoriesHeart} alt='' />
+										</div>
+									</div>
+									<TopProductsCards categoriesItems={Images.youSee2} companyName="Dell" itemsSpecs=" Dell XPS 15 9575 (X360)" itemprice="$1724" />
 
-										<div className="countercart">
-											<div className="counter">
-												<div className="counter-reduce">
-													<span>-</span>
-												</div>
-												<div className="counter-num">
-													<span>01</span>
-												</div>
-												<div className="counter-increase">
-													<span>+</span>
-												</div>
+									<div className="countercart">
+										<div className="counter">
+											<div className="counter-reduce">
+												<span>-</span>
 											</div>
-											<div className="carticon">
-												<img src={Images.cartIcon} alt="" />
+											<div className="counter-num">
+												<span>01</span>
 											</div>
+											<div className="counter-increase">
+												<span>+</span>
+											</div>
+										</div>
+										<div className="carticon">
+											<img src={Images.cartIcon} alt="" />
 										</div>
 									</div>
 								</div>
 							</div>
-							<div>
-								<div className="categories-slier-items">
-									<div className="add-cart">
-										<div className='itmes-cart'>
-											<div className='discount'>
-												<span>25% off</span>
+						</div>
+						<div>
+							<div className="categories-slier-items">
+								<div className="add-cart">
+									<div className='itmes-cart'>
+										<div className='discount'>
+											<span>25% off</span>
+										</div>
+										<div>
+											<img src={Images.categoriesHeart} alt='' />
+										</div>
+									</div>
+									<TopProductsCards categoriesItems={Images.youSee3} companyName="HP" itemsSpecs="HP Spectre x360 Convertible" itemprice="$1,169" />
+									<div className="countercart">
+										<div className="counter">
+											<div className="counter-reduce">
+												<span>-</span>
 											</div>
-											<div>
-												<img src={Images.categoriesHeart} alt='' />
+											<div className="counter-num">
+												<span>01</span>
+											</div>
+											<div className="counter-increase">
+												<span>+</span>
 											</div>
 										</div>
-										<TopProductsCards categoriesItems={Images.youSee3} companyName="HP" itemsSpecs="HP Spectre x360 Convertible" itemprice="$1,169" />
-										<div className="countercart">
-											<div className="counter">
-												<div className="counter-reduce">
-													<span>-</span>
-												</div>
-												<div className="counter-num">
-													<span>01</span>
-												</div>
-												<div className="counter-increase">
-													<span>+</span>
-												</div>
-											</div>
-											<div className="carticon">
-												<img src={Images.cartIcon} alt="" />
-											</div>
+										<div className="carticon">
+											<img src={Images.cartIcon} alt="" />
 										</div>
 									</div>
 								</div>
 							</div>
-							<div>
-								<div className="categories-slier-items">
-									<div className="add-cart">
-										<div className='itmes-cart'>
-											<div className='discount'>
-												<span>25% off</span>
+						</div>
+						<div>
+							<div className="categories-slier-items">
+								<div className="add-cart">
+									<div className='itmes-cart'>
+										<div className='discount'>
+											<span>25% off</span>
+										</div>
+										<div>
+											<img src={Images.categoriesHeart} alt='' />
+										</div>
+									</div>
+									<TopProductsCards categoriesItems={Images.youSee4} companyName="Apple" itemsSpecs="iMac 24 Retina 4K Display" itemprice="$1,499" />
+									<div className="countercart">
+										<div className="counter">
+											<div className="counter-reduce">
+												<span>-</span>
 											</div>
-											<div>
-												<img src={Images.categoriesHeart} alt='' />
+											<div className="counter-num">
+												<span>01</span>
+											</div>
+											<div className="counter-increase">
+												<span>+</span>
 											</div>
 										</div>
-										<TopProductsCards categoriesItems={Images.youSee4} companyName="Apple" itemsSpecs="iMac 24 Retina 4K Display" itemprice="$1,499" />
-										<div className="countercart">
-											<div className="counter">
-												<div className="counter-reduce">
-													<span>-</span>
-												</div>
-												<div className="counter-num">
-													<span>01</span>
-												</div>
-												<div className="counter-increase">
-													<span>+</span>
-												</div>
-											</div>
-											<div className="carticon">
-												<img src={Images.cartIcon} alt="" />
-											</div>
+										<div className="carticon">
+											<img src={Images.cartIcon} alt="" />
 										</div>
 									</div>
 								</div>
 							</div>
-							<div>
-								<div className="categories-slier-items">
-									<div className="add-cart">
-										<div className='itmes-cart'>
-											<div className='discount'>
-												<span>25% off</span>
-											</div>
-											<div>
-												<img src={Images.categoriesHeart} alt='' />
-											</div>
+						</div>
+						<div>
+							<div className="categories-slier-items">
+								<div className="add-cart">
+									<div className='itmes-cart'>
+										<div className='discount'>
+											<span>25% off</span>
 										</div>
-										<TopProductsCards categoriesItems={Images.youSee1} companyName="Apple" itemsSpecs=" iMac 27 Retina 5K Display" itemprice="$1,799" oldPrice="$1,899" />
+										<div>
+											<img src={Images.categoriesHeart} alt='' />
+										</div>
+									</div>
+									<TopProductsCards categoriesItems={Images.youSee1} companyName="Apple" itemsSpecs=" iMac 27 Retina 5K Display" itemprice="$1,799" oldPrice="$1,899" />
 
-										<div className="countercart">
-											<div className="counter">
-												<div className="counter-reduce">
-													<span>-</span>
-												</div>
-												<div className="counter-num">
-													<span>01</span>
-												</div>
-												<div className="counter-increase">
-													<span>+</span>
-												</div>
+									<div className="countercart">
+										<div className="counter">
+											<div className="counter-reduce">
+												<span>-</span>
 											</div>
-											<div className="carticon">
-												<img src={Images.cartIcon} alt="" />
+											<div className="counter-num">
+												<span>01</span>
 											</div>
+											<div className="counter-increase">
+												<span>+</span>
+											</div>
+										</div>
+										<div className="carticon">
+											<img src={Images.cartIcon} alt="" />
 										</div>
 									</div>
 								</div>
 							</div>
-							<div>
-								<div className="categories-slier-items">
-									<div className="add-cart">
-										<div className='itmes-cart'>
-											<div className='discount'>
-												<span>25% off</span>
-											</div>
-											<div>
-												<img src={Images.categoriesHeart} alt='' />
-											</div>
+						</div>
+						<div>
+							<div className="categories-slier-items">
+								<div className="add-cart">
+									<div className='itmes-cart'>
+										<div className='discount'>
+											<span>25% off</span>
 										</div>
-										<TopProductsCards categoriesItems={Images.youSee2} companyName="Dell" itemsSpecs=" Dell XPS 15 9575 (X360)" itemprice="$1724" />
+										<div>
+											<img src={Images.categoriesHeart} alt='' />
+										</div>
+									</div>
+									<TopProductsCards categoriesItems={Images.youSee2} companyName="Dell" itemsSpecs=" Dell XPS 15 9575 (X360)" itemprice="$1724" />
 
-										<div className="countercart">
-											<div className="counter">
-												<div className="counter-reduce">
-													<span>-</span>
-												</div>
-												<div className="counter-num">
-													<span>01</span>
-												</div>
-												<div className="counter-increase">
-													<span>+</span>
-												</div>
+									<div className="countercart">
+										<div className="counter">
+											<div className="counter-reduce">
+												<span>-</span>
 											</div>
-											<div className="carticon">
-												<img src={Images.cartIcon} alt="" />
+											<div className="counter-num">
+												<span>01</span>
 											</div>
+											<div className="counter-increase">
+												<span>+</span>
+											</div>
+										</div>
+										<div className="carticon">
+											<img src={Images.cartIcon} alt="" />
 										</div>
 									</div>
 								</div>
 							</div>
-							<div>
-								<div className="categories-slier-items">
-									<div className="add-cart">
-										<div className='itmes-cart'>
-											<div className='discount'>
-												<span>25% off</span>
+						</div>
+						<div>
+							<div className="categories-slier-items">
+								<div className="add-cart">
+									<div className='itmes-cart'>
+										<div className='discount'>
+											<span>25% off</span>
+										</div>
+										<div>
+											<img src={Images.categoriesHeart} alt='' />
+										</div>
+									</div>
+									<TopProductsCards categoriesItems={Images.youSee3} companyName="HP" itemsSpecs="HP Spectre x360 Convertible" itemprice="$1,169" />
+									<div className="countercart">
+										<div className="counter">
+											<div className="counter-reduce">
+												<span>-</span>
 											</div>
-											<div>
-												<img src={Images.categoriesHeart} alt='' />
+											<div className="counter-num">
+												<span>01</span>
+											</div>
+											<div className="counter-increase">
+												<span>+</span>
 											</div>
 										</div>
-										<TopProductsCards categoriesItems={Images.youSee3} companyName="HP" itemsSpecs="HP Spectre x360 Convertible" itemprice="$1,169" />
-										<div className="countercart">
-											<div className="counter">
-												<div className="counter-reduce">
-													<span>-</span>
-												</div>
-												<div className="counter-num">
-													<span>01</span>
-												</div>
-												<div className="counter-increase">
-													<span>+</span>
-												</div>
-											</div>
-											<div className="carticon">
-												<img src={Images.cartIcon} alt="" />
-											</div>
+										<div className="carticon">
+											<img src={Images.cartIcon} alt="" />
 										</div>
 									</div>
 								</div>
 							</div>
-						</Slider>
-					</div>
-				</Container>
-			</section>
-		</div>
+						</div>
+					</Slider>
+				</div>
+			</Container>
+		</section>
 	);
 }
 

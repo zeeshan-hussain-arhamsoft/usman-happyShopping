@@ -6,30 +6,27 @@ import AddToCartItemDetailsContent from '../AddToCartItemDetailsContent/AddToCar
 import "./AddToCartItemsContent.css";
 function AddToCartItemsContent() {
 	return (
-		<div className='wrapper'>
-			<section id='add-to-cart-items-content'>
-				<div className='items-type'>
-					<Container>
-						<div className='item-type-content'>
-							<strong>Home <span>/</span> Shop <span>/</span> Computer & Laptop</strong>
-						</div>
-					</Container>
-				</div>
-				<div className='add-cart-item-type'>
-					<Container>
-						<Row>
-							<Col lg={6}>
-								<AddToCartItemDetails/>
-							</Col>
-							<Col lg={6}>
-								<AddToCartItemDetailsContent/>
-							</Col>
-						</Row>
-					</Container>
-				</div>
-
-			</section>
-		</div>
+		<section id='add-to-cart-items-content'>
+			<div className='items-type'>
+				<Container>
+					<div className='item-type-content'>
+						<strong>Home <span>/</span> Shop <span>/</span> Computer & Laptop</strong>
+					</div>
+				</Container>
+			</div>
+			<div className='add-cart-item-type'>
+				<Container>
+					<Row>
+						<Col lg={6}>
+							<AddToCartItemDetails />
+						</Col>
+						<Col lg={6}>
+							<AddToCartItemDetailsContent />
+						</Col>
+					</Row>
+				</Container>
+			</div>
+		</section>
 	);
 }
 

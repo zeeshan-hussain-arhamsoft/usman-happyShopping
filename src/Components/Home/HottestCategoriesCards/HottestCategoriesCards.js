@@ -1,13 +1,16 @@
 import React from 'react'
 
-function HottestCategoriesCards(props) {
+function HottestCategoriesCards(Props) {
 	return (
 		<div className='HottestCategories-col'>
 			<div className='hottestcategories-card-img'>
-				<img src={props.categoreislogo} />
+				<img src={Props.categoreislogo} />
 			</div>
-			<h5>{props.categoreistype}</h5>
-			<span>{props.itmescount}</span>
+			<div className='hottestCategories-hover-img'>
+				<img src={Props.categoreisHoverImg} alt=''/>
+			</div>
+			<h5>{Props.categoreistype}</h5>
+			<span>{Props.itmescount}</span>
 		</div>
 	);
 }

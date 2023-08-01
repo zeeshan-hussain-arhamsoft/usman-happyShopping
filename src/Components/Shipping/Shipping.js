@@ -5,11 +5,11 @@ import Footer from "../Footer/Footer";
 
 function Shipping() {
 	return (
-		<>
-			<Header/>
-			<ShippingDetails/>
-			<Footer/>
-		</>
+		<div className='wrapper'>
+			<Header />
+			<ShippingDetails />
+			<Footer />
+		</div>
 	)
 }
 

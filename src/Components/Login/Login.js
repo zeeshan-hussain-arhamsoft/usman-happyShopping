@@ -5,13 +5,13 @@ import KeepInTouch from "../Home/KeepInTouch/KeepInTouch";
 import Footer from "../Footer/Footer";
 function Login() {
 	return (
-		<>
-			<Header/>
-			<LoginForm/>
-			<KeepInTouch/>
-			<Footer/>
-		</>		
+		<div className='wrapper'>
+			<Header />
+			<LoginForm />
+			<KeepInTouch />
+			<Footer />
+		</div>
 	);
 }
 
-export default Login ;
+export default Login;

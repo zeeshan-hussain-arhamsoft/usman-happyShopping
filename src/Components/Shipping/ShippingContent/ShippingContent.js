@@ -65,7 +65,7 @@ function ShippingContent() {
 				<strong>$80</strong>
 			</div>
 			<div className='continue-payment-btn-wrapper'>
-				<Link to='/' className='continue-payment-btn'>Continue to payment</Link>
+				<Link to='/' className='hvr-bounce-in continue-payment-btn'>Continue to payment</Link>
 				<Link to='/' className='return-to-information-btn'>Return to information</Link>				
 			</div>
 		</div>

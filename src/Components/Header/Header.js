@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container, Navbar } from 'react-bootstrap';
 import HeaderContact from './HeaderContact/HeaderContact';
 import LogoSearch from './LogoSearch/LogoSearch';
 import HeaderNavigation from './HeaderNavigation/HeaderNavigation';
@@ -8,9 +7,9 @@ import "./Header.css";
 
 function Header() {
 	return (
-		<div class="wrapper">
+		<div >
 			<HeaderContact />
-			<LogoSearch />.
+			<LogoSearch />
 			<HeaderNavigation />
 		</div>
 	)

@@ -6,11 +6,10 @@ import { Link } from 'react-router-dom';
 
 
 function SmartHome() {
-  return (
-	<div className='wrapper'>
+	return (
 		<section id='smarthome'>
 			<Container>
-				 <div className='smart-home-wrapper'>
+				<div className='smart-home-wrapper'>
 					<div className='smart-home-img'>
 						<img src={Images.smartHome} />
 					</div>
@@ -19,11 +18,10 @@ function SmartHome() {
 						<h4>shop now & get 30% off on this festival season</h4>
 						<Link to="/" className='hvr-bounce-to-right-smartHome smart-home-link'> SAVE 30% OFF</Link>
 					</div>
-				 </div>
+				</div>
 			</Container>
 		</section>
-	</div>
-  );
+	);
 }
 
 export default SmartHome;

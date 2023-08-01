@@ -4,22 +4,20 @@ import ShoppingItem from '../../ContactDetails/ShoppingItem/ShoppingItem';
 import PaymentContentDetails from '../PaymentContentDetails/PaymentContentDetails';
 
 function PaymentContent() {
-  return (
-	<div className='wrapper'>
-		<section id='payment-content'> 
+	return (
+		<section id='payment-content'>
 			<Container>
 				<Row>
 					<Col lg={6}>
-						<PaymentContentDetails/>
+						<PaymentContentDetails />
 					</Col>
 					<Col lg={6}>
-						<ShoppingItem/>
+						<ShoppingItem />
 					</Col>
 				</Row>
 			</Container>
 		</section>
-	</div>
-  );
+	);
 }
 
 export default PaymentContent;

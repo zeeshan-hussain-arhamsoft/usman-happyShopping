@@ -5,7 +5,7 @@ import "./SignupForm.css";
 
 function SignupForm() {
 	return (
-		<div className='wrapper'>
+		<div>
 			<div className='login-path'>
 				<Container>
 					<div className='account-path'>

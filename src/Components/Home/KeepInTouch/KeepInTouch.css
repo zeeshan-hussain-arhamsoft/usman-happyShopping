@@ -205,6 +205,10 @@
 }
 
 @media(max-width:450px) {
+	#keep-in-touch {
+		padding: 15px 10px;
+	}
+
 	.keep-in-touch-content-col h3 {
 		font-size: 17px;
 		line-height: 20px;
@@ -229,6 +233,7 @@
 		line-height: 15px;
 		padding: 11px 16px
 	}
+
 }
 
 @media(max-width:320px) {

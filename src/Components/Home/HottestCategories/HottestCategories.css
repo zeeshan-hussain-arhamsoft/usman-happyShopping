@@ -75,19 +75,38 @@
 	padding: 35px 0;
 	border: 1px solid #0B0C1433;
 	border-radius: 20px;
+	transition: all ease-in-out 0.3s;
 }
 
-.categoreis-ist-card {
+.HottestCategories-col:hover {
 	background-color: #49B7D1;
-	border-radius: 20px;
-	position: relative;
-	z-index: 0;
+}
+
+.hottestcategories-card-img {
+	display: block;
+}
+
+.hottestCategories-hover-img {
+	display: none;
+	margin-bottom: 26px;
+}
+
+.HottestCategories-col:hover .hottestcategories-card-img {
+	display: none;
+}
+
+.HottestCategories-col:hover .hottestCategories-hover-img {
+	display: block;
 }
 
 .categoreis-ist-card h5 {
 	font-size: 22px;
 	line-height: 25px;
 	font-weight: 600;
+	color: #FFFFFF;
+}
+
+.HottestCategories-col:hover h5 {
 	color: #FFFFFF;
 }
 
@@ -107,6 +126,10 @@
 	line-height: 19px;
 	font-weight: 500;
 	color: #87939E;
+}
+
+.HottestCategories-col:hover span {
+	color: #FFFFFF;
 }
 
 .slider-wrapper {
@@ -300,7 +323,18 @@
 		height: 50px;
 	}
 
+
 	.hottestcategories-card-img img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.hottestCategories-hover-img {
+		
+		height: 50px;
+	}
+
+	.hottestCategories-hover-img img {
 		width: 100%;
 		height: 100%;
 	}
@@ -401,47 +435,57 @@
 		right: 43%;
 		top: 105%;
 	}
-	.slider-wrapper .slick-prev{
+
+	.slider-wrapper .slick-prev {
 		width: 17px;
 		height: 17px;
 		top: 105%;
 	}
+
 	.categories-items1 {
 		width: 145px;
 		height: 150px;
 	}
+
 	.categories-items-wrapper span {
 		font-size: 12px;
 		line-height: 15px;
 	}
+
 	.categories-items-wrapper h6 {
 		font-size: 15px;
 		line-height: 18px;
 		margin-bottom: 5px;
 	}
+
 	.categories-items-wrapper strong {
 		font-size: 16px;
 		line-height: 19px;
 		margin-right: 5px;
 		margin-bottom: 5px;
 	}
+
 	.counter-num {
 		font-size: 14px;
 		line-height: 17px;
 		padding: 8px 10px;
 	}
+
 	.counter-reduce {
 		font-size: 23px;
 		line-height: 27px;
 	}
-	.counter-increase{
+
+	.counter-increase {
 		font-size: 23px;
 		line-height: 27px;
 	}
+
 	.carticon {
 		width: 27px;
 		height: 27px;
 	}
+
 	.carticon img {
 		width: 13px;
 	}
@@ -462,10 +506,11 @@
 		font-size: 12px;
 		line-height: 15px;
 	}
+
 	.discount span {
 		font-size: 12px;
 		line-height: 15px;
 		padding: 0 9px;
 	}
-	
+
 }

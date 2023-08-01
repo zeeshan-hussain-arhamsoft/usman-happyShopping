@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function LoginForm() {
 	return (
-		<div className='wrapper'>
+		<div>
 			<div className='login-path'>
 				<Container>
 					<div className='account-path'>

@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer';
 
 function Accessories() {
   return (
-	<div>
+	<div className='wrapper'>
 		<Header/>
 		<AccessoriesBanner/>
 		<BrandType/>

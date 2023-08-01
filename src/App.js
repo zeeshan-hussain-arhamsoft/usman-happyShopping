@@ -24,12 +24,11 @@ function App() {
 				{/* <Route path='/OrderNumDetails' element={<OrderNumDetails/>} /> */}
 				<Route path='/ContactDetails' element={<ContactDetails/>} />
 				<Route path='/Payment' element={<Payment/>} />
-				<Route path='/Shipping' element={<Shipping/>} />
+				<Route path='/Shipping' 	element={<Shipping/>} />
 				<Route path='/Login' element={<Login/>}/>
 				<Route path='/Signup' element={<Signup/>}/>
 			</Routes>
 		</BrowserRouter>
 	);
 }
-
 export default App;

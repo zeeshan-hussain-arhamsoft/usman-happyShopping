@@ -47,6 +47,12 @@ import youSee1 from "./Images/yousee1.png";
 import youSee2 from "./Images/yousee2.png";
 import youSee3 from "./Images/yousee3.png";
 import youSee4 from "./Images/yousee4.png";
+import laptopHover from "./Images/laptop-hover.png";
+import mobileHover from "./Images/mobilesHover.png";
+import electronicsHover from "./Images/electronicsHover.png";
+import asseccoriesHover from "./Images/asseccoriesHover.png";
+import gameControlerHover from './Images/gameControlerHover.png';
+import camerasHover from "./Images/camerasHover.png";
 // Accessories
 import accessoriesBanner from "./Images/accessoriesBanner.png";
 import accessoriesGrid from "./Images/AsseccoriesGrid.svg";
@@ -108,6 +114,12 @@ export const Images = {
     youSee2,
     youSee3,
     youSee4,
+    laptopHover,
+    mobileHover,
+    electronicsHover,
+    asseccoriesHover,
+    gameControlerHover,
+    camerasHover,
     // accessories-banner
     accessoriesBanner,
     accessoriesGrid,

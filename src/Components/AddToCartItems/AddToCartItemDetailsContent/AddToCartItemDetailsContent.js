@@ -51,7 +51,7 @@ function AddToCartItemDetailsContent() {
 					</div>
 				</li>
 				<li className='customer-rating-count-li'>
-					<Link to="/" className='customer-rating-link' > Customer Reviews (2256) </Link>
+					<Link to="/" className=' customer-rating-link' > Customer Reviews (2256) </Link>
 				</li>
 			</ul>
 			<p className='item-discription'>Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis. Etiam auctor lectus vel neque convallis pharetra. Ut turpis eros, aliquet non ante id, interdum placerat erat.</p>
@@ -67,7 +67,7 @@ function AddToCartItemDetailsContent() {
 						classNamePrefix="custom-select"
 						isMenuOpen={true}
 					/>
-					<Link to='/' className='addcart-button'>Add to Cart</Link>
+					<Link to='/' className='hvr-bounce-in addcart-button'>Add to Cart</Link>
 				</div>
 				<div onClick={addWishlist} className='wishlist'>
 					{heart ?

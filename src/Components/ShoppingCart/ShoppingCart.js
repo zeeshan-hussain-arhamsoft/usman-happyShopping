@@ -6,12 +6,12 @@ import Footer from '../Footer/Footer';
 
 function ShoppingCart() {
 	return (
-		<>
-			<Header/>
-			<ShoppingCartContent/>
-			<KeepInTouch/>
-			<Footer/>
-		</>
+		<div className='wrapper'>
+			<Header />
+			<ShoppingCartContent />
+			<KeepInTouch />
+			<Footer />
+		</div>
 	)
 }
 

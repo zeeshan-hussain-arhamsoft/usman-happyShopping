@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer';
 
 function Signup() {
   return (
-	<div>
+	<div className='wrapper'>
 		<Header/>
 		<SignupForm/>
 		<KeepInTouch/>

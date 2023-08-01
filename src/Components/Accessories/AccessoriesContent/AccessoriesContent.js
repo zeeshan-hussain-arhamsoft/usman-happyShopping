@@ -42,7 +42,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img1'>
-								<img src={Images.categoriesItem1} />
+								<img src={Images.categoriesItem1} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -71,7 +71,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img2'>
-								<img src={Images.categoriesItem2} />
+								<img src={Images.categoriesItem2} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -105,7 +105,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img3'>
-								<img src={Images.categoriesItem3} />
+								<img src={Images.categoriesItem3} alt='' />
 							</div>
 						</div>
 
@@ -140,7 +140,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img4'>
-								<img src={Images.categoriesItem4} />
+								<img src={Images.categoriesItem4} alt='' />
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -169,7 +169,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img2'>
-								<img src={Images.categoriesItem2} />
+								<img src={Images.categoriesItem2} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -203,7 +203,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img3'>
-								<img src={Images.categoriesItem3} />
+								<img src={Images.categoriesItem3} alt=''/>
 							</div>
 						</div>
 
@@ -238,7 +238,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img1'>
-								<img src={Images.categoriesItem1} />
+								<img src={Images.categoriesItem1} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -267,7 +267,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img2'>
-								<img src={Images.categoriesItem2} />
+								<img src={Images.categoriesItem2} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -301,7 +301,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img3'>
-								<img src={Images.categoriesItem3} />
+								<img src={Images.categoriesItem3} alt=''/>
 							</div>
 						</div>
 
@@ -336,7 +336,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img4'>
-								<img src={Images.categoriesItem4} />
+								<img src={Images.categoriesItem4} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -365,7 +365,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img2'>
-								<img src={Images.categoriesItem2} />
+								<img src={Images.categoriesItem2} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -399,7 +399,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img3'>
-								<img src={Images.categoriesItem3} />
+								<img src={Images.categoriesItem3} alt=''/>
 							</div>
 						</div>
 
@@ -434,7 +434,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img1'>
-								<img src={Images.categoriesItem1} />
+								<img src={Images.categoriesItem1} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -463,7 +463,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img2'>
-								<img src={Images.categoriesItem2} />
+								<img src={Images.categoriesItem2} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -497,7 +497,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img3'>
-								<img src={Images.categoriesItem3} />
+								<img src={Images.categoriesItem3} alt=''/>
 							</div>
 						</div>
 
@@ -532,7 +532,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img4'>
-								<img src={Images.categoriesItem4} />
+								<img src={Images.categoriesItem4} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -561,7 +561,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img2'>
-								<img src={Images.categoriesItem2} />
+								<img src={Images.categoriesItem2} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -595,7 +595,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img3'>
-								<img src={Images.categoriesItem3} />
+								<img src={Images.categoriesItem3} alt=''/>
 							</div>
 						</div>
 
@@ -630,7 +630,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img1'>
-								<img src={Images.categoriesItem1} />
+								<img src={Images.categoriesItem1} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -659,7 +659,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img2'>
-								<img src={Images.categoriesItem2} />
+								<img src={Images.categoriesItem2} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -693,7 +693,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img3'>
-								<img src={Images.categoriesItem3} />
+								<img src={Images.categoriesItem3} alt=''/>
 							</div>
 						</div>
 
@@ -728,7 +728,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img4'>
-								<img src={Images.categoriesItem4} />
+								<img src={Images.categoriesItem4} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -757,7 +757,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img2'>
-								<img src={Images.categoriesItem2} />
+								<img src={Images.categoriesItem2} alt=''/>
 							</div>
 						</div>
 						<AccessoriesContentCards accessoriesBrand="Apple" accessoriesDetails="iMac 27 Retina 5K Display" accessoriesPrice="$1,799" accessoriesDiscount="$1,899" />
@@ -791,7 +791,7 @@ function AccessoriesContent() {
 						</div>
 						<div className='accessories-card-img-wrapper'>
 							<div className='accessories-img3'>
-								<img src={Images.categoriesItem3} />
+								<img src={Images.categoriesItem3} alt=''/>
 							</div>
 						</div>
 

@@ -54,7 +54,7 @@ function SimpleSlider() {
 		  ]
 	}
 	return (
-		<div className="slider-wrapper wrapper">
+		<div className="slider-wrapper">
 			<Slider {...settings_3}>
 				<div>
 					<div className="categories-slier-items">

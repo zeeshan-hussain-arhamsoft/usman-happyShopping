@@ -4,11 +4,11 @@ import ContactDetailsContent from './ContactDetailsContent/ContactDetailsContent
 import Footer from '../Footer/Footer';
 function ContactDetails() {
 	return (
-		<>
-			<Header/>
-			<ContactDetailsContent/>
-			<Footer/>
-		</>
+		<div className='wrapper'>
+			<Header />
+			<ContactDetailsContent />
+			<Footer />
+		</div>
 	);
 }
 

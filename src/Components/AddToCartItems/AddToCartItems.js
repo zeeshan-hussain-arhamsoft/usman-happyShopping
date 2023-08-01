@@ -7,7 +7,7 @@ import KeepInTouch from '../Home/KeepInTouch/KeepInTouch';
 import Footer from '../Footer/Footer';
 function AddToCartItems() {
 	return (
-		<div>
+		<div className='wrapper'>
 			<Header/>
 			<AddToCartItemsContent/>
 			<MoreInfoAddToCart/>

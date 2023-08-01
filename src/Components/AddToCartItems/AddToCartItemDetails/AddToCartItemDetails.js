@@ -4,7 +4,6 @@ import "./AddToCartItemDetails.css";
 
 function AddToCartItemDetails() {
     return (
-        <div className='wrapper'>
             <div className='add-cart-item-img-wrapper'>
                 <div className='add-cart-img'>
                     <img src={Images.iMac} alt='' />
@@ -32,7 +31,6 @@ function AddToCartItemDetails() {
                     </li>
                 </ul>
             </div>
-        </div>
     );
 }
 
